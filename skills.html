@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Digital Skills & Learning Resources | OpportunityBridge</title>
+
+  <meta name="description"
+        content="Explore digital skills, career skills, online learning resources and practical tools to help students and job seekers grow with OpportunityBridge.">
+
+  <meta name="author" content="Anord Boniphace">
+  <meta name="publisher" content="OpportunityBridge">
+
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="googlebot" content="index, follow, max-image-preview:large">
+
+  <meta name="google-adsense-account"
+        content="ca-pub-2004981151172844">
+
+  <link rel="canonical"
+        href="https://absmg.github.io/skills.html">
+
+  <!-- FAVICON -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="apple-touch-icon" href="/favicon.svg">
+
+  <!-- OPEN GRAPH -->
+  <meta property="og:type" content="website">
+  <meta property="og:title"
+        content="Digital Skills & Learning Resources | OpportunityBridge">
+  <meta property="og:description"
+        content="Build useful digital and career skills with practical learning resources from OpportunityBridge.">
+  <meta property="og:url"
+        content="https://absmg.github.io/skills.html">
+  <meta property="og:site_name" content="OpportunityBridge">
+
+  <!-- ADSENSE -->
+  <script async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2004981151172844"
+    crossorigin="anonymous">
+  </script>
+
+  <style>
+    :root {
+      --navy: #0B3D91;
+      --blue: #1769D1;
+      --gold: #F4C542;
+      --dark: #172033;
+      --muted: #64748B;
+      --light: #F6F8FC;
+      --white: #FFFFFF;
+      --border: #E2E8F0;
+      --footer: #071F49;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--light);
+      color: var(--dark);
+      line-height: 1.7;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* HEADER */
+
+    header {
+      background: var(--navy);
+      color: var(--white);
+      box-shadow: 0 2px 12px rgba(0,0,0,0.14);
+    }
+
+    .nav-container {
+      width: min(1150px, 92%);
+      min-height: 68px;
+      margin: auto;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      gap: 20px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      font-size: 22px;
+      font-weight: 800;
+
+      white-space: nowrap;
+    }
+
+    .logo-mark {
+      width: 40px;
+      height: 40px;
+      display: block;
+      border-radius: 10px;
+    }
+
+    .logo-text {
+      color: var(--white);
+    }
+
+    .logo-text span {
+      color: var(--gold);
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 3px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      padding: 8px 10px;
+      border-radius: 6px;
+
+      color: var(--white);
+
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    nav a:hover,
+    nav a.active {
+      background: rgba(255,255,255,0.13);
+    }
+
+    /* HERO */
+
+    .hero {
+      background:
+        linear-gradient(
+          135deg,
+          var(--navy),
+          var(--blue)
+        );
+
+      color: var(--white);
+
+      text-align: center;
+
+      padding: 70px 20px 75px;
+    }
+
+    .hero-inner {
+      width: min(900px, 94%);
+      margin: auto;
+    }
+
+    .hero h1 {
+      font-size: clamp(34px, 5vw, 50px);
+      line-height: 1.15;
+      margin-bottom: 16px;
+    }
+
+    .hero p {
+      max-width: 780px;
+      margin: auto;
+
+      color: #EAF2FF;
+
+      font-size: 18px;
+      line-height: 1.75;
+    }
+
+    /* MAIN */
+
+    .container {
+      width: min(1100px, 92%);
+      margin: auto;
+
+      padding: 58px 0;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 35px;
+    }
+
+    .section-title h2 {
+      color: var(--navy);
+      font-size: 30px;
+      margin-bottom: 8px;
+    }
+
+    .section-title p {
+      max-width: 720px;
+      margin: auto;
+      color: var(--muted);
+    }
+
+    /* CARDS */
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns:
+        repeat(3, 1fr);
+
+      gap: 22px;
+    }
+
+    .skill-card {
+      background: var(--white);
+
+      border: 1px solid var(--border);
+
+      border-radius: 12px;
+
+      padding: 27px;
+
+      box-shadow:
+        0 4px 18px rgba(15,23,42,0.07);
+
+      transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        border-color 0.2s ease;
+    }
+
+    .skill-card:hover {
+      transform: translateY(-3px);
+
+      border-color: #CBD5E1;
+
+      box-shadow:
+        0 10px 28px rgba(15,23,42,0.11);
+    }
+
+    .skill-card h3 {
+      color: var(--navy);
+
+      font-size: 20px;
+
+      margin-bottom: 10px;
+    }
+
+    .skill-card p {
+      color: var(--muted);
+
+      margin-bottom: 18px;
+    }
+
+    .skill-link {
+      color: var(--blue);
+
+      font-weight: 700;
+    }
+
+    .skill-link:hover {
+      color: var(--navy);
+      text-decoration: underline;
+    }
+
+    /* CTA */
+
+    .cta {
+      margin-top: 45px;
+
+      background: var(--white);
+
+      border: 1px solid var(--border);
+
+      border-radius: 12px;
+
+      padding: 34px;
+
+      text-align: center;
+
+      box-shadow:
+        0 4px 18px rgba(15,23,42,0.05);
+    }
+
+    .cta h2 {
+      color: var(--navy);
+
+      margin-bottom: 9px;
+
+      font-size: 27px;
+    }
+
+    .cta p {
+      max-width: 720px;
+
+      margin: 0 auto 20px;
+
+      color: var(--muted);
+    }
+
+    .btn {
+      display: inline-block;
+
+      padding: 12px 21px;
+
+      border-radius: 7px;
+
+      background: var(--gold);
+
+      color: var(--navy);
+
+      font-weight: 700;
+    }
+
+    .btn:hover {
+      background: #FFD85C;
+    }
+
+    /* FOOTER */
+
+    footer {
+      background: var(--footer);
+
+      color: #DBE7FF;
+
+      text-align: center;
+
+      padding: 30px 18px;
+
+      margin-top: 20px;
+    }
+
+    footer p {
+      margin: 5px 0;
+    }
+
+    footer a {
+      color: var(--white);
+
+      margin: 0 8px;
+
+      font-weight: 600;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* MOBILE */
+
+    @media (max-width: 900px) {
+
+      .nav-container {
+        padding: 14px 0;
+
+        align-items: flex-start;
+
+        flex-direction: column;
+      }
+
+      nav {
+        justify-content: flex-start;
+      }
+
+      .skills-grid {
+        grid-template-columns:
+          repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 560px) {
+
+      .hero {
+        padding:
+          52px 18px 58px;
+      }
+
+      .hero h1 {
+        font-size: 35px;
+      }
+
+      .hero p {
+        font-size: 16px;
+      }
+
+      .container {
+        padding: 42px 0;
+      }
+
+      .skills-grid {
+        grid-template-columns: 1fr;
+      }
+
+      nav {
+        gap: 2px;
+      }
+
+      nav a {
+        padding: 6px 7px;
+        font-size: 13px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+
+  <header>
+    <div class="nav-container">
+
+      <a href="/" class="logo">
+
+        <svg
+          class="logo-mark"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 64 64"
+          aria-label="OpportunityBridge logo">
+
+          <rect
+            width="64"
+            height="64"
+            rx="14"
+            fill="#0B3D91"/>
+
+          <path
+            d="M10 39 C16 20 24 14 32 14 C40 14 48 20 54 39"
+            fill="none"
+            stroke="#F4C542"
+            stroke-width="5"
+            stroke-linecap="round"/>
+
+          <path
+            d="M17 39V28 M47 39V28"
+            fill="none"
+            stroke="#FFFFFF"
+            stroke-width="4"
+            stroke-linecap="round"/>
+
+          <path
+            d="M14 45H50"
+            fill="none"
+            stroke="#FFFFFF"
+            stroke-width="4"
+            stroke-linecap="round"/>
+
+          <path
+            d="M24 34L32 25L40 34"
+            fill="none"
+            stroke="#1769D1"
+            stroke-width="4"
+            stroke-linecap="round"
+            stroke-linejoin="round"/>
+
+        </svg>
+
+        <span class="logo-text">
+          Opportunity<span>Bridge</span>
+        </span>
+
+      </a>
+
+      <nav aria-label="Main navigation">
+
+        <a href="/">Home</a>
+
+        <a href="/scholarships.html">
+          Scholarships
+        </a>
+
+        <a href="/jobs.html">
+          Jobs
+        </a>
+
+        <a href="/internships.html">
+          Internships
+        </a>
+
+        <a href="/courses.html">
+          Courses
+        </a>
+
+        <a href="/opportunities.html">
+          Opportunities
+        </a>
+
+        <a href="/skills.html" class="active">
+          Skills
+        </a>
+
+      </nav>
+
+    </div>
+  </header>
+
+
+  <!-- HERO -->
+
+  <section class="hero">
+
+    <div class="hero-inner">
+
+      <h1>
+        Digital Skills & Learning
+      </h1>
+
+      <p>
+        Build practical digital, communication and career
+        skills that can help you learn, work and discover
+        new opportunities.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- MAIN -->
+
+  <main class="container">
+
+    <section class="section-title">
+
+      <h2>
+        Grow Your Skills
+      </h2>
+
+      <p>
+        Explore practical skills and learning areas
+        that can support your education, career development
+        and online opportunities.
+      </p>
+
+    </section>
+
+
+    <section class="skills-grid">
+
+      <article class="skill-card">
+
+        <h3>
+          Digital Skills
+        </h3>
+
+        <p>
+          Learn useful computer, internet, productivity
+          and digital-work skills for today's opportunities.
+        </p>
+
+        <a
+          class="skill-link"
+          href="/courses.html">
+
+          Explore Courses →
+
+        </a>
+
+      </article>
+
+
+      <article class="skill-card">
+
+        <h3>
+          Communication Skills
+        </h3>
+
+        <p>
+          Strengthen English, communication, writing
+          and professional interaction skills.
+        </p>
+
+        <a
+          class="skill-link"
+          href="/courses.html">
+
+          Find Learning Resources →
+
+        </a>
+
+      </article>
+
+
+      <article class="skill-card">
+
+        <h3>
+          Career Skills
+        </h3>
+
+        <p>
+          Develop CV, job-search, interview and workplace
+          skills for your career journey.
+        </p>
+
+        <a
+          class="skill-link"
+          href="/jobs.html">
+
+          Explore Jobs →
+
+        </a>
+
+      </article>
+
+
+      <article class="skill-card">
+
+        <h3>
+          Online Learning
+        </h3>
+
+        <p>
+          Discover online courses and learning opportunities
+          that fit your goals and interests.
+        </p>
+
+        <a
+          class="skill-link"
+          href="/courses.html">
+
+          Browse Courses →
+
+        </a>
+
+      </article>
+
+
+      <article class="skill-card">
+
+        <h3>
+          AI & Productivity
+        </h3>
+
+        <p>
+          Learn how modern digital tools and responsible AI
+          can support learning and productivity.
+        </p>
+
+        <a
+          class="skill-link"
+          href="/opportunities.html">
+
+          Explore Opportunities →
+
+        </a>
+
+      </article>
+
+
+      <article class="skill-card">
+
+        <h3>
+          Student Development
+        </h3>
+
+        <p>
+          Find resources and opportunities that help students
+          prepare for further education and careers.
+        </p>
+
+        <a
+          class="skill-link"
+          href="/scholarships.html">
+
+          View Scholarships →
+
+        </a>
+
+      </article>
+
+    </section>
+
+
+    <!-- CTA -->
+
+    <section class="cta">
+
+      <h2>
+        Keep Learning, Keep Growing
+      </h2>
+
+      <p>
+        OpportunityBridge connects students and job seekers
+        with resources for education, careers and global
+        opportunities.
+      </p>
+
+      <a
+        class="btn"
+        href="/opportunities.html">
+
+        Explore Opportunities
+
+      </a>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <p>
+      © 2026 OpportunityBridge.
+      All rights reserved.
+    </p>
+
+    <p>
+
+      <a href="/about.html">
+        About
+      </a>
+
+      <a href="/contact.html">
+        Contact
+      </a>
+
+      <a href="/privacy.html">
+        Privacy
+      </a>
+
+      <a href="/disclaimer.html">
+        Disclaimer
+      </a>
+
+    </p>
+
+  </footer>
+
+</body>
+</html>
