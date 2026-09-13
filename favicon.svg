@@ -28,7 +28,7 @@
     stroke-linecap="round"
   />
 
-  <!-- Opportunity / upward path -->
+  <!-- Connection symbol -->
   <path
     d="M24 34L32 25L40 34"
     fill="none"
