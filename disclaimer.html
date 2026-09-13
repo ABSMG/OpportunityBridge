@@ -18,37 +18,53 @@
       box-sizing: border-box;
     }
 
+    :root {
+      --navy: #0b3d91;
+      --blue: #1769d1;
+      --gold: #f4c542;
+      --dark: #172033;
+      --muted: #64748b;
+      --light: #f6f8fc;
+      --white: #ffffff;
+      --border: #e2e8f0;
+      --footer: #071f49;
+    }
+
     body {
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
-      background: #f5f8f8;
-      color: #243333;
+      background: var(--light);
+      color: var(--dark);
       line-height: 1.7;
     }
 
     header {
-      background: #123b3a;
-      color: white;
+      background: var(--navy);
+      color: var(--white);
       padding: 18px 7%;
       display: flex;
       justify-content: space-between;
       align-items: center;
+      border-bottom: 3px solid var(--gold);
     }
 
     .logo {
       font-weight: bold;
       font-size: 21px;
+      color: var(--white);
     }
 
     nav a {
-      color: white;
+      color: var(--white);
       text-decoration: none;
       margin-left: 18px;
       font-size: 14px;
+      font-weight: 600;
+      transition: color 0.2s ease;
     }
 
     nav a:hover {
-      color: #20b89a;
+      color: var(--gold);
     }
 
     main {
@@ -58,39 +74,68 @@
     }
 
     .box {
-      background: white;
+      background: var(--white);
       padding: 40px;
       border-radius: 15px;
-      box-shadow: 0 5px 20px rgba(0,0,0,.07);
+      border: 1px solid var(--border);
+      box-shadow: 0 5px 20px rgba(23,32,51,.07);
     }
 
     h1 {
-      color: #123b3a;
+      color: var(--navy);
       text-align: center;
+      margin-top: 0;
+      margin-bottom: 30px;
     }
 
     h2 {
-      color: #176b63;
+      color: var(--blue);
       margin-top: 30px;
     }
 
+    p {
+      color: var(--dark);
+    }
+
+    a {
+      color: var(--blue);
+    }
+
     footer {
-      background: #102f2e;
-      color: #dcebea;
+      background: var(--footer);
+      color: #dbe7f7;
       text-align: center;
       padding: 30px;
     }
 
+    footer strong {
+      color: var(--white);
+    }
+
     footer a {
-      color: white;
+      color: var(--white);
       text-decoration: none;
       margin: 0 8px;
+    }
+
+    footer a:hover {
+      color: var(--gold);
     }
 
     @media(max-width:700px) {
       header {
         flex-direction: column;
         gap: 12px;
+        text-align: center;
+      }
+
+      nav a {
+        margin-left: 8px;
+        margin-right: 8px;
+      }
+
+      .box {
+        padding: 25px;
       }
     }
   </style>
