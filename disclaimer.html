@@ -1,247 +1,209 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Disclaimer | OpportunityBridge</title>
-
-  <meta name="description" content="Disclaimer for OpportunityBridge. Important information about opportunities, external links and website content.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  <title>Disclaimer | OpportunityBridge</title>  <meta name="description" content="Disclaimer for OpportunityBridge. Important information about opportunities, external links and website content.">
   <meta name="robots" content="index, follow">
-<link rel="canonical" href="https://absmg.github.io/OpportunityBridge/disclaimer.html">
-
-<meta property="og:type" content="website">
+<link rel="canonical" href="https://absmg.github.io/disclaimer.html"><meta property="og:type" content="website">
 <meta property="og:title" content="Disclaimer | OpportunityBridge">
-<meta property="og:url" content="https://absmg.github.io/OpportunityBridge/disclaimer.html">
+<meta property="og:url" content="https://absmg.github.io/disclaimer.html">
   <style>
     * {
       box-sizing: border-box;
-    }
+    }:root {
+  --navy: #0b3d91;
+  --blue: #1769d1;
+  --gold: #f4c542;
+  --dark: #172033;
+  --muted: #64748b;
+  --light: #f6f8fc;
+  --white: #ffffff;
+  --border: #e2e8f0;
+  --footer: #071f49;
+}
 
-    :root {
-      --navy: #0b3d91;
-      --blue: #1769d1;
-      --gold: #f4c542;
-      --dark: #172033;
-      --muted: #64748b;
-      --light: #f6f8fc;
-      --white: #ffffff;
-      --border: #e2e8f0;
-      --footer: #071f49;
-    }
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--light);
+  color: var(--dark);
+  line-height: 1.7;
+}
 
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: var(--light);
-      color: var(--dark);
-      line-height: 1.7;
-    }
+header {
+  background: var(--navy);
+  color: var(--white);
+  padding: 18px 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid var(--gold);
+}
 
-    header {
-      background: var(--navy);
-      color: var(--white);
-      padding: 18px 7%;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      border-bottom: 3px solid var(--gold);
-    }
+.logo {
+  font-weight: bold;
+  font-size: 21px;
+  color: var(--white);
+}
 
-    .logo {
-      font-weight: bold;
-      font-size: 21px;
-      color: var(--white);
-    }
+nav a {
+  color: var(--white);
+  text-decoration: none;
+  margin-left: 18px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
 
-    nav a {
-      color: var(--white);
-      text-decoration: none;
-      margin-left: 18px;
-      font-size: 14px;
-      font-weight: 600;
-      transition: color 0.2s ease;
-    }
+nav a:hover {
+  color: var(--gold);
+}
 
-    nav a:hover {
-      color: var(--gold);
-    }
+main {
+  max-width: 900px;
+  margin: 55px auto;
+  padding: 0 20px;
+}
 
-    main {
-      max-width: 900px;
-      margin: 55px auto;
-      padding: 0 20px;
-    }
+.box {
+  background: var(--white);
+  padding: 40px;
+  border-radius: 15px;
+  border: 1px solid var(--border);
+  box-shadow: 0 5px 20px rgba(23,32,51,.07);
+}
 
-    .box {
-      background: var(--white);
-      padding: 40px;
-      border-radius: 15px;
-      border: 1px solid var(--border);
-      box-shadow: 0 5px 20px rgba(23,32,51,.07);
-    }
+h1 {
+  color: var(--navy);
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
 
-    h1 {
-      color: var(--navy);
-      text-align: center;
-      margin-top: 0;
-      margin-bottom: 30px;
-    }
+h2 {
+  color: var(--blue);
+  margin-top: 30px;
+}
 
-    h2 {
-      color: var(--blue);
-      margin-top: 30px;
-    }
+p {
+  color: var(--dark);
+}
 
-    p {
-      color: var(--dark);
-    }
+a {
+  color: var(--blue);
+}
 
-    a {
-      color: var(--blue);
-    }
+footer {
+  background: var(--footer);
+  color: #dbe7f7;
+  text-align: center;
+  padding: 30px;
+}
 
-    footer {
-      background: var(--footer);
-      color: #dbe7f7;
-      text-align: center;
-      padding: 30px;
-    }
+footer strong {
+  color: var(--white);
+}
 
-    footer strong {
-      color: var(--white);
-    }
+footer a {
+  color: var(--white);
+  text-decoration: none;
+  margin: 0 8px;
+}
 
-    footer a {
-      color: var(--white);
-      text-decoration: none;
-      margin: 0 8px;
-    }
+footer a:hover {
+  color: var(--gold);
+}
 
-    footer a:hover {
-      color: var(--gold);
-    }
+@media(max-width:700px) {
+  header {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
 
-    @media(max-width:700px) {
-      header {
-        flex-direction: column;
-        gap: 12px;
-        text-align: center;
-      }
+  nav a {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
 
-      nav a {
-        margin-left: 8px;
-        margin-right: 8px;
-      }
+  .box {
+    padding: 25px;
+  }
+}
 
-      .box {
-        padding: 25px;
-      }
-    }
   </style>
-</head>
-
-<body>
-
-<header>
-
-  <div class="logo">OpportunityBridge</div>
-
-  <nav>
+</head><body><header>  <div class="logo">OpportunityBridge</div>  <nav>
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
     <a href="contact.html">Contact</a>
-  </nav>
+  </nav></header><main>  <div class="box"><h1>Disclaimer</h1>
 
-</header>
+<p>
+  The information provided by OpportunityBridge is intended for general
+  informational and educational purposes only.
+</p>
 
-<main>
+<h2>Accuracy of Information</h2>
 
-  <div class="box">
+<p>
+  We make reasonable efforts to provide useful and accurate information.
+  However, we do not guarantee that all information published on the
+  website is complete, current or error-free.
+</p>
 
-    <h1>Disclaimer</h1>
+<h2>Scholarships, Jobs and Other Opportunities</h2>
 
-    <p>
-      The information provided by OpportunityBridge is intended for general
-      informational and educational purposes only.
-    </p>
+<p>
+  OpportunityBridge may share information about scholarships, jobs,
+  internships, courses and other opportunities provided by third parties.
+  Eligibility requirements, deadlines and application procedures may
+  change without notice.
+</p>
 
-    <h2>Accuracy of Information</h2>
+<p>
+  Visitors should always confirm important information directly with
+  the official organization or provider before applying or making a
+  decision.
+</p>
 
-    <p>
-      We make reasonable efforts to provide useful and accurate information.
-      However, we do not guarantee that all information published on the
-      website is complete, current or error-free.
-    </p>
+<h2>External Links</h2>
 
-    <h2>Scholarships, Jobs and Other Opportunities</h2>
+<p>
+  This website may contain links to external websites. OpportunityBridge
+  does not control those websites and is not responsible for their
+  content, availability, privacy practices or policies.
+</p>
 
-    <p>
-      OpportunityBridge may share information about scholarships, jobs,
-      internships, courses and other opportunities provided by third parties.
-      Eligibility requirements, deadlines and application procedures may
-      change without notice.
-    </p>
+<h2>Affiliate Disclosure</h2>
 
-    <p>
-      Visitors should always confirm important information directly with
-      the official organization or provider before applying or making a
-      decision.
-    </p>
+<p>
+  Some links on OpportunityBridge may be affiliate links. This means
+  that we may receive a commission if a visitor makes a qualifying
+  purchase or completes a qualifying action through certain links,
+  at no additional cost to the visitor.
+</p>
 
-    <h2>External Links</h2>
+<h2>Advertisements</h2>
 
-    <p>
-      This website may contain links to external websites. OpportunityBridge
-      does not control those websites and is not responsible for their
-      content, availability, privacy practices or policies.
-    </p>
+<p>
+  OpportunityBridge may display advertisements from third-party
+  advertising services such as Google AdSense. Advertisements are
+  provided by third parties and do not necessarily represent an
+  endorsement by OpportunityBridge.
+</p>
 
-    <h2>Affiliate Disclosure</h2>
+<h2>Contact</h2>
 
-    <p>
-      Some links on OpportunityBridge may be affiliate links. This means
-      that we may receive a commission if a visitor makes a qualifying
-      purchase or completes a qualifying action through certain links,
-      at no additional cost to the visitor.
-    </p>
+<p>
+  If you have questions about this Disclaimer, contact us at
+  <a href="mailto:anordsom@gmail.com">anordsom@gmail.com</a>.
+</p>
 
-    <h2>Advertisements</h2>
+  </div></main><footer><strong>OpportunityBridge</strong>
 
-    <p>
-      OpportunityBridge may display advertisements from third-party
-      advertising services such as Google AdSense. Advertisements are
-      provided by third parties and do not necessarily represent an
-      endorsement by OpportunityBridge.
-    </p>
-
-    <h2>Contact</h2>
-
-    <p>
-      If you have questions about this Disclaimer, contact us at
-      <a href="mailto:anordsom@gmail.com">anordsom@gmail.com</a>.
-    </p>
-
-  </div>
-
-</main>
-
-<footer>
-
-  <strong>OpportunityBridge</strong>
-
-  <p>Your Gateway to Global Opportunities</p>
-
-  <div>
+  <p>Your Gateway to Global Opportunities</p>  <div>
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
     <a href="contact.html">Contact</a>
   <a href="privacy.html">Privacy Policy</a>  
-  </div>
-
-  <p>© 2026 OpportunityBridge. All rights reserved.</p>
-
-</footer>
-
-</body>
+  </div>  <p>© 2026 OpportunityBridge. All rights reserved.</p></footer></body>
 </html>
