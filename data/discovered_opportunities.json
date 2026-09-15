@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T11:54:37.428653+00:00",
+  "generated_at": "2026-09-15T12:02:31.257543+00:00",
   "total": 384,
   "items": [
     {
@@ -15,7 +15,7 @@
         "scholarships",
         "students"
       ],
-      "discovered_at": "2026-09-15T11:54:35.457342+00:00",
+      "discovered_at": "2026-09-15T12:02:29.162560+00:00",
       "status": "needs_verification"
     },
     {
@@ -31,7 +31,7 @@
         "jobs",
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T11:54:36.034741+00:00",
+      "discovered_at": "2026-09-15T12:02:29.885648+00:00",
       "status": "needs_verification"
     },
     {
@@ -47,7 +47,7 @@
         "scholarships",
         "students"
       ],
-      "discovered_at": "2026-09-15T11:54:35.457299+00:00",
+      "discovered_at": "2026-09-15T12:02:29.162498+00:00",
       "status": "needs_verification"
     },
     {
@@ -61,7 +61,7 @@
       "matched_keywords": [
         "students"
       ],
-      "discovered_at": "2026-09-15T11:54:36.764792+00:00",
+      "discovered_at": "2026-09-15T12:02:30.549917+00:00",
       "status": "needs_verification"
     },
     {
@@ -76,7 +76,7 @@
         "course",
         "courses"
       ],
-      "discovered_at": "2026-09-15T11:54:37.426656+00:00",
+      "discovered_at": "2026-09-15T12:02:31.254218+00:00",
       "status": "needs_verification"
     },
     {
@@ -91,7 +91,7 @@
         "course",
         "courses"
       ],
-      "discovered_at": "2026-09-15T11:54:37.426344+00:00",
+      "discovered_at": "2026-09-15T12:02:31.253723+00:00",
       "status": "needs_verification"
     },
     {
@@ -108,7 +108,7 @@
         "africa",
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T11:54:36.034782+00:00",
+      "discovered_at": "2026-09-15T12:02:29.885708+00:00",
       "status": "needs_verification"
     },
     {
@@ -125,23 +125,7 @@
         "students",
         "africa"
       ],
-      "discovered_at": "2026-09-15T11:54:35.457369+00:00",
-      "status": "needs_verification"
-    },
-    {
-      "title": "Imperial President’s PhD Scholarships 2027–28 – Fully Funded PhD Opportunity - Global South Opportunities",
-      "source": "Google News - Scholarships",
-      "publisher_name": "Global South Opportunities",
-      "publisher_url": "https://www.globalsouthopportunities.com",
-      "news_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1zTHU3cTkyYVZDVVVwVXlDM296cF9la0xkSFhrYTRQQkwyME9wd0tTTlIzdmxEQjFXS0hFNDJ3a2FpRkFTN2dZSW1udnJYSTBQb2M3dzg1UDhCTUV0ZklqRzBrS3BXbUtNNUtTSEt4VEI?oc=5",
-      "source_url": "https://www.globalsouthopportunities.com",
-      "published": "2026-09-11T15:46:22+00:00",
-      "matched_keywords": [
-        "scholarship",
-        "scholarships",
-        "fully funded"
-      ],
-      "discovered_at": "2026-09-15T11:54:35.457719+00:00",
+      "discovered_at": "2026-09-15T12:02:29.162602+00:00",
       "status": "needs_verification"
     },
     {
@@ -157,7 +141,7 @@
         "fully funded",
         "africa"
       ],
-      "discovered_at": "2026-09-15T11:54:35.457484+00:00",
+      "discovered_at": "2026-09-15T12:02:29.162791+00:00",
       "status": "needs_verification"
     },
     {
@@ -172,7 +156,7 @@
         "course",
         "courses"
       ],
-      "discovered_at": "2026-09-15T11:54:37.426679+00:00",
+      "discovered_at": "2026-09-15T12:02:31.254255+00:00",
       "status": "needs_verification"
     },
     {
@@ -188,7 +172,7 @@
         "scholarships",
         "fully funded"
       ],
-      "discovered_at": "2026-09-15T11:54:35.458181+00:00",
+      "discovered_at": "2026-09-15T12:02:29.163965+00:00",
       "status": "needs_verification"
     },
     {
@@ -204,7 +188,7 @@
         "jobs",
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T11:54:36.034803+00:00",
+      "discovered_at": "2026-09-15T12:02:29.885745+00:00",
       "status": "needs_verification"
     },
     {
@@ -219,7 +203,7 @@
         "internship",
         "students"
       ],
-      "discovered_at": "2026-09-15T11:54:36.764763+00:00",
+      "discovered_at": "2026-09-15T12:02:30.549870+00:00",
       "status": "needs_verification"
     },
     {
@@ -234,7 +218,25 @@
         "job",
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T11:54:36.035140+00:00",
+      "discovered_at": "2026-09-15T12:02:29.886276+00:00",
+      "status": "needs_verification"
+    },
+    {
+      "title": "ARC–GSSP Scholarship Programme 2026/2027: Fully Funded Postgraduate Scholarships for African Students - Global South Opportunities",
+      "source": "Google News - Scholarships",
+      "publisher_name": "Global South Opportunities",
+      "publisher_url": "https://www.globalsouthopportunities.com",
+      "news_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA4MjI0dzZRcUNndXNNa2FRVlhwWlJoWXNienJSOEgwWi1aV05lNHNkTy00bjlPeF8wYVRfeWI2RmFacEhsVjRqNG5IVzJ2bEJXTEJ1eWFrRnN1TjdfVGxFM0RtQ2xsZWc?oc=5",
+      "source_url": "https://www.globalsouthopportunities.com",
+      "published": "2026-09-09T10:51:46+00:00",
+      "matched_keywords": [
+        "scholarship",
+        "scholarships",
+        "fully funded",
+        "students",
+        "africa"
+      ],
+      "discovered_at": "2026-09-15T12:02:29.163080+00:00",
       "status": "needs_verification"
     },
     {
@@ -251,7 +253,7 @@
         "students",
         "international students"
       ],
-      "discovered_at": "2026-09-15T11:54:35.457416+00:00",
+      "discovered_at": "2026-09-15T12:02:29.162680+00:00",
       "status": "needs_verification"
     },
     {
@@ -266,7 +268,7 @@
         "course",
         "courses"
       ],
-      "discovered_at": "2026-09-15T11:54:37.426592+00:00",
+      "discovered_at": "2026-09-15T12:02:31.254115+00:00",
       "status": "needs_verification"
     },
     {
@@ -280,7 +282,23 @@
       "matched_keywords": [
         "internship"
       ],
-      "discovered_at": "2026-09-15T11:54:36.765418+00:00",
+      "discovered_at": "2026-09-15T12:02:30.550958+00:00",
+      "status": "needs_verification"
+    },
+    {
+      "title": "University of Cape Town (UCT) Mastercard Foundation Scholars Program 2026: Fully Funded Scholarship for Young African Leaders - Global South Opportunities",
+      "source": "Google News - Scholarships",
+      "publisher_name": "Global South Opportunities",
+      "publisher_url": "https://www.globalsouthopportunities.com",
+      "news_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9XOHIwOTdZU0E0d0VvaVM2VzZ6TXVSMEJqXzgySFFqWlN6UFFibmlReHA2bFZ4TkotZXJNekJyaHlMTjdzcnNHMzNpckFYNmRLODR2c1Item5CZGlwOF93R2prYUNPVlZ3dUlrWEVGdzV5ZWt1?oc=5",
+      "source_url": "https://www.globalsouthopportunities.com",
+      "published": "2026-09-04T07:00:00+00:00",
+      "matched_keywords": [
+        "scholarship",
+        "fully funded",
+        "africa"
+      ],
+      "discovered_at": "2026-09-15T12:02:29.163573+00:00",
       "status": "needs_verification"
     },
     {
@@ -296,7 +314,7 @@
         "jobs",
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T11:54:36.035031+00:00",
+      "discovered_at": "2026-09-15T12:02:29.886098+00:00",
       "status": "needs_verification"
     },
     {
@@ -311,7 +329,7 @@
         "internship",
         "internships"
       ],
-      "discovered_at": "2026-09-15T11:54:36.764814+00:00",
+      "discovered_at": "2026-09-15T12:02:30.549959+00:00",
       "status": "needs_verification"
     },
     {
@@ -326,7 +344,7 @@
         "course",
         "courses"
       ],
-      "discovered_at": "2026-09-15T11:54:37.426723+00:00",
+      "discovered_at": "2026-09-15T12:02:31.254326+00:00",
       "status": "needs_verification"
     },
     {
@@ -341,7 +359,7 @@
         "course",
         "courses"
       ],
-      "discovered_at": "2026-09-15T11:54:37.426512+00:00",
+      "discovered_at": "2026-09-15T12:02:31.253985+00:00",
       "status": "needs_verification"
     },
     {
@@ -356,7 +374,7 @@
         "job",
         "jobs"
       ],
-      "discovered_at": "2026-09-15T11:54:36.035099+00:00",
+      "discovered_at": "2026-09-15T12:02:29.886240+00:00",
       "status": "needs_verification"
     },
     {
@@ -371,7 +389,7 @@
         "course",
         "courses"
       ],
-      "discovered_at": "2026-09-15T11:54:37.426745+00:00",
+      "discovered_at": "2026-09-15T12:02:31.254419+00:00",
       "status": "needs_verification"
     },
     {
@@ -386,7 +404,7 @@
         "scholarship",
         "students"
       ],
-      "discovered_at": "2026-09-15T11:54:35.457588+00:00",
+      "discovered_at": "2026-09-15T12:02:29.162968+00:00",
       "status": "needs_verification"
     },
     {
@@ -401,7 +419,7 @@
         "students",
         "international students"
       ],
-      "discovered_at": "2026-09-15T11:54:35.457395+00:00",
+      "discovered_at": "2026-09-15T12:02:29.162645+00:00",
       "status": "needs_verification"
     },
     {
@@ -415,7 +433,7 @@
       "matched_keywords": [
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T11:54:36.035360+00:00",
+      "discovered_at": "2026-09-15T12:02:29.886677+00:00",
       "status": "needs_verification"
     },
     {
@@ -431,7 +449,21 @@
         "scholarships",
         "students"
       ],
-      "discovered_at": "2026-09-15T11:54:35.457567+00:00",
+      "discovered_at": "2026-09-15T12:02:29.162933+00:00",
+      "status": "needs_verification"
+    },
+    {
+      "title": "Tanzania, Eswatini urged to turn political ties into economic gains - dailynews.co.tz",
+      "source": "Google News - Jobs Tanzania",
+      "publisher_name": "dailynews.co.tz",
+      "publisher_url": "https://dailynews.co.tz",
+      "news_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPck54RUVRaE52ZHZWcXp3NHlDWFp5ZExzQmh1Nnh4OGl4UUVXNjU4Nkh4N1ZVMGRSeENBOUUteGpkSk90ZW1vVEF6M1BSU3ZXQ00ySWZHTk9fc3N2a1A5OXZuU2ZvQXRZaV9UaDVDVFZ2QnN4OHJIVG1kek1lek9zLXFtT0ZXQ3R5WGV1dFJvbnQzZnFCVWc?oc=5",
+      "source_url": "https://dailynews.co.tz",
+      "published": "2026-08-31T08:03:19+00:00",
+      "matched_keywords": [
+        "tanzania"
+      ],
+      "discovered_at": "2026-09-15T12:02:29.886562+00:00",
       "status": "needs_verification"
     },
     {
@@ -447,7 +479,7 @@
         "jobs",
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T11:54:36.035159+00:00",
+      "discovered_at": "2026-09-15T12:02:29.886307+00:00",
       "status": "needs_verification"
     },
     {
@@ -461,7 +493,7 @@
       "matched_keywords": [
         "fully funded"
       ],
-      "discovered_at": "2026-09-15T11:54:35.457818+00:00",
+      "discovered_at": "2026-09-15T12:02:29.163353+00:00",
       "status": "needs_verification"
     },
     {
@@ -476,7 +508,7 @@
         "scholarship",
         "africa"
       ],
-      "discovered_at": "2026-09-15T11:54:35.457671+00:00",
+      "discovered_at": "2026-09-15T12:02:29.163186+00:00",
       "status": "needs_verification"
     },
     {
@@ -491,7 +523,7 @@
         "course",
         "courses"
       ],
-      "discovered_at": "2026-09-15T11:54:37.426765+00:00",
+      "discovered_at": "2026-09-15T12:02:31.254359+00:00",
       "status": "needs_verification"
     },
     {
@@ -507,7 +539,7 @@
         "jobs",
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T11:54:36.034897+00:00",
+      "discovered_at": "2026-09-15T12:02:29.885870+00:00",
       "status": "needs_verification"
     },
     {
@@ -522,7 +554,7 @@
         "scholarship",
         "scholarships"
       ],
-      "discovered_at": "2026-09-15T11:54:35.457648+00:00",
+      "discovered_at": "2026-09-15T12:02:29.163112+00:00",
       "status": "needs_verification"
     },
     {
@@ -539,7 +571,7 @@
         "students",
         "international students"
       ],
-      "discovered_at": "2026-09-15T11:54:36.764897+00:00",
+      "discovered_at": "2026-09-15T12:02:30.550117+00:00",
       "status": "needs_verification"
     },
     {
@@ -555,7 +587,7 @@
         "internships",
         "students"
       ],
-      "discovered_at": "2026-09-15T11:54:36.764833+00:00",
+      "discovered_at": "2026-09-15T12:02:30.549996+00:00",
       "status": "needs_verification"
     },
     {
@@ -571,13 +603,13 @@
         "internships",
         "students"
       ],
-      "discovered_at": "2026-09-15T11:54:36.764856+00:00",
+      "discovered_at": "2026-09-15T12:02:30.550038+00:00",
       "status": "needs_verification"
     },
     {
-      "title": "Online Free Courses: Top Certification Programs by Jaro - Jaro Education",
+      "title": "Online Free Courses: Top Certification Programs by Jaro - jaroeducation.com",
       "source": "Google News - Free Courses",
-      "publisher_name": "Jaro Education",
+      "publisher_name": "jaroeducation.com",
       "publisher_url": "https://www.jaroeducation.com",
       "news_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBfTVRmR3M3Z25uSkFSUDhvVUdOTE1lWl9icXBBLTF0a1FOZWc0TjlnUllJQWllbVJpUDV3elh1UU5sa1pkMk5UNzI1b3hXck83TTlDYU9SNE1ydmg3MjV1dQ?oc=5",
       "source_url": "https://www.jaroeducation.com",
@@ -586,7 +618,7 @@
         "course",
         "courses"
       ],
-      "discovered_at": "2026-09-15T11:54:37.427481+00:00",
+      "discovered_at": "2026-09-15T12:02:31.255721+00:00",
       "status": "needs_verification"
     },
     {
@@ -600,7 +632,7 @@
       "matched_keywords": [
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T11:54:36.035380+00:00",
+      "discovered_at": "2026-09-15T12:02:29.886710+00:00",
       "status": "needs_verification"
     },
     {
@@ -615,7 +647,7 @@
         "students",
         "africa"
       ],
-      "discovered_at": "2026-09-15T11:54:35.458439+00:00",
+      "discovered_at": "2026-09-15T12:02:29.164439+00:00",
       "status": "needs_verification"
     },
     {
@@ -630,7 +662,7 @@
         "internship",
         "students"
       ],
-      "discovered_at": "2026-09-15T11:54:36.764971+00:00",
+      "discovered_at": "2026-09-15T12:02:30.550231+00:00",
       "status": "needs_verification"
     },
     {
@@ -647,7 +679,7 @@
         "students",
         "africa"
       ],
-      "discovered_at": "2026-09-15T11:54:35.457437+00:00",
+      "discovered_at": "2026-09-15T12:02:29.162714+00:00",
       "status": "needs_verification"
     },
     {
@@ -663,7 +695,7 @@
         "scholarships",
         "africa"
       ],
-      "discovered_at": "2026-09-15T11:54:35.458267+00:00",
+      "discovered_at": "2026-09-15T12:02:29.164109+00:00",
       "status": "needs_verification"
     },
     {
@@ -677,7 +709,7 @@
       "matched_keywords": [
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T11:54:36.035553+00:00",
+      "discovered_at": "2026-09-15T12:02:29.887047+00:00",
       "status": "needs_verification"
     },
     {
@@ -693,7 +725,7 @@
         "jobs",
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T11:54:36.035316+00:00",
+      "discovered_at": "2026-09-15T12:02:29.886816+00:00",
       "status": "needs_verification"
     },
     {
@@ -707,7 +739,7 @@
       "matched_keywords": [
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T11:54:36.035746+00:00",
+      "discovered_at": "2026-09-15T12:02:29.887402+00:00",
       "status": "needs_verification"
     },
     {
@@ -722,7 +754,7 @@
         "job",
         "jobs"
       ],
-      "discovered_at": "2026-09-15T11:54:36.035779+00:00",
+      "discovered_at": "2026-09-15T12:02:29.887460+00:00",
       "status": "needs_verification"
     },
     {
@@ -739,7 +771,7 @@
         "students",
         "international students"
       ],
-      "discovered_at": "2026-09-15T11:54:35.457610+00:00",
+      "discovered_at": "2026-09-15T12:02:29.163006+00:00",
       "status": "needs_verification"
     },
     {
@@ -756,7 +788,7 @@
         "students",
         "africa"
       ],
-      "discovered_at": "2026-09-15T11:54:35.458327+00:00",
+      "discovered_at": "2026-09-15T12:02:29.164213+00:00",
       "status": "needs_verification"
     },
     {
@@ -773,7 +805,7 @@
         "students",
         "africa"
       ],
-      "discovered_at": "2026-09-15T11:54:35.458374+00:00",
+      "discovered_at": "2026-09-15T12:02:29.164295+00:00",
       "status": "needs_verification"
     },
     {
@@ -790,7 +822,7 @@
         "job",
         "students"
       ],
-      "discovered_at": "2026-09-15T11:54:36.765049+00:00",
+      "discovered_at": "2026-09-15T12:02:30.550317+00:00",
       "status": "needs_verification"
     },
     {
@@ -807,7 +839,7 @@
         "students",
         "africa"
       ],
-      "discovered_at": "2026-09-15T11:54:35.457694+00:00",
+      "discovered_at": "2026-09-15T12:02:29.163149+00:00",
       "status": "needs_verification"
     },
     {
@@ -824,40 +856,7 @@
         "fully funded",
         "africa"
       ],
-      "discovered_at": "2026-09-15T11:54:35.457743+00:00",
-      "status": "needs_verification"
-    },
-    {
-      "title": "Up to 120 Fully Funded KfW EAC Master’s Scholarships in East Africa 2026/2027 – Get Tuition, Monthly Stipend, Travel & Research Support - Global South Opportunities",
-      "source": "Google News - Scholarships",
-      "publisher_name": "Global South Opportunities",
-      "publisher_url": "https://www.globalsouthopportunities.com",
-      "news_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE85dEpiWVRwdGhZNVFoZnBwTEtXRm1LT2FheHYtT3QyN0dmMHdad1Fka3ZMQWp5LXVRNkdjQ2xfZW1QTEZRU2NsNDZta3ZtZjR6bDZrRzJ2VFZOajBsRjFQaVBlbTF3clhBMVE?oc=5",
-      "source_url": "https://www.globalsouthopportunities.com",
-      "published": "2026-08-20T07:00:00+00:00",
-      "matched_keywords": [
-        "scholarship",
-        "scholarships",
-        "fully funded",
-        "africa"
-      ],
-      "discovered_at": "2026-09-15T11:54:35.457849+00:00",
-      "status": "needs_verification"
-    },
-    {
-      "title": "Over 50 Ugandan students secure University of Tokyo scholarships - Daily Monitor",
-      "source": "Google News - Scholarships",
-      "publisher_name": "Daily Monitor",
-      "publisher_url": "https://www.monitor.co.ug",
-      "news_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbzVQM2labTRiU3lFMW10MTdFRktEQ0JUZkJGYU5tSEpCaU90MFdIX1NvSWZ0Z0FicC1uRVIwZ1hSQWxiRTdSM3dJMEpINXNPTEVlLXJieVVpNTVYU1pmbi0zbF9DZUJxeE9WX3NDVEJWYmtaU2tpcnFBdU5HTElKSE5Wa3Q0U3NqSks2aEo2Q3M0OHdHNG1sejJYX1RjM0J0X3dXajM3ZGNDT253VnpKaWJSRFh5ejVVU253ag?oc=5",
-      "source_url": "https://www.monitor.co.ug",
-      "published": "2026-08-20T07:00:00+00:00",
-      "matched_keywords": [
-        "scholarship",
-        "scholarships",
-        "students"
-      ],
-      "discovered_at": "2026-09-15T11:54:35.459447+00:00",
+      "discovered_at": "2026-09-15T12:02:29.163227+00:00",
       "status": "needs_verification"
     },
     {
@@ -871,24 +870,23 @@
       "matched_keywords": [
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T11:54:36.035845+00:00",
+      "discovered_at": "2026-09-15T12:02:29.887578+00:00",
       "status": "needs_verification"
     },
     {
-      "title": "Tanzania’s billionaire-led MeTL plans $250 million Mozambique expansion targeting 20,000 jobs - Business Insider Africa",
+      "title": "Tanzania’s billionaire-led MeTL plans $250 million Mozambique expansion targeting 20,000 jobs - CediRates",
       "source": "Google News - Jobs Tanzania",
-      "publisher_name": "Business Insider Africa",
-      "publisher_url": "https://africa.businessinsider.com",
-      "news_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOOWxtZW9KeVpGQlNDdGNUY2RBMGJ3dEZEbzd3YUJ0NVFVM1pTTFZ5Q3AzWEowVlhubGhqTWtzYWt3YlhYY3pZczFzckE3T1hEYnl4VkRCZl9RTkxCLWNsdEtKenp6OHl6N0hvU3JXd1Q5N0dhMnhLUi16bHF2eU00cmt5UEZEenpybFU3Q0t1cmNFNDV2ajFtUjMyZUNBcDg5T1RUYktsalFlMG9PNmpBRFAwVmx5VzNHVXoyRkdHVmFkRTFtUnlCQWcwYkU1d2h2Y2YxTFUtbzI3QQ?oc=5",
-      "source_url": "https://africa.businessinsider.com",
-      "published": "2026-08-19T07:00:00+00:00",
+      "publisher_name": "CediRates",
+      "publisher_url": "https://cedirates.com",
+      "news_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSlBOcHdxQ0g4Q3JnYkxCZ25TUEl4bFN4Zld2eGhKazBSQXgtME9XU1Zsd1h1eG13WGZHXy05WTJUbWI1ankwdmxLT0d6UlN6ZE0ycDlreE5GVUhtZVgyTk1oeGNnSFM4RXZnc2NZZGpka0lRT2p5cnhpa0xjWThKbVBtLXpqbFZCQWJteFVsd2FnZU02cmZDVnFmaTdObXJwMXRsRXR2TXdxMWwxQzIya05UTlRJRWRGazJJ?oc=5",
+      "source_url": "https://cedirates.com",
+      "published": "2026-08-19T23:58:12+00:00",
       "matched_keywords": [
         "job",
         "jobs",
-        "africa",
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T11:54:36.034830+00:00",
+      "discovered_at": "2026-09-15T12:02:29.886450+00:00",
       "status": "needs_verification"
     },
     {
@@ -904,7 +902,7 @@
         "jobs",
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T11:54:36.034876+00:00",
+      "discovered_at": "2026-09-15T12:02:29.885832+00:00",
       "status": "needs_verification"
     },
     {
@@ -921,7 +919,7 @@
         "africa",
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T11:54:36.034918+00:00",
+      "discovered_at": "2026-09-15T12:02:29.885907+00:00",
       "status": "needs_verification"
     },
     {
@@ -937,7 +935,7 @@
         "jobs",
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T11:54:36.035179+00:00",
+      "discovered_at": "2026-09-15T12:02:29.886342+00:00",
       "status": "needs_verification"
     },
     {
@@ -953,7 +951,7 @@
         "course",
         "courses"
       ],
-      "discovered_at": "2026-09-15T11:54:37.426373+00:00",
+      "discovered_at": "2026-09-15T12:02:31.253764+00:00",
       "status": "needs_verification"
     },
     {
@@ -968,7 +966,7 @@
         "job",
         "jobs"
       ],
-      "discovered_at": "2026-09-15T11:54:36.036643+00:00",
+      "discovered_at": "2026-09-15T12:02:29.888904+00:00",
       "status": "needs_verification"
     },
     {
@@ -984,7 +982,7 @@
         "jobs",
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T11:54:36.035438+00:00",
+      "discovered_at": "2026-09-15T12:02:29.886849+00:00",
       "status": "needs_verification"
     },
     {
@@ -1001,7 +999,24 @@
         "students",
         "africa"
       ],
-      "discovered_at": "2026-09-15T11:54:35.458483+00:00",
+      "discovered_at": "2026-09-15T12:02:29.164598+00:00",
+      "status": "needs_verification"
+    },
+    {
+      "title": "Up to 120 Fully Funded KfW EAC Master’s Scholarships in East Africa 2026/2027 – Get Tuition, Monthly Stipend, Travel & Research Support - Global South Opportunities",
+      "source": "Google News - Scholarships",
+      "publisher_name": "Global South Opportunities",
+      "publisher_url": "https://www.globalsouthopportunities.com",
+      "news_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE85dEpiWVRwdGhZNVFoZnBwTEtXRm1LT2FheHYtT3QyN0dmMHdad1Fka3ZMQWp5LXVRNkdjQ2xfZW1QTEZRU2NsNDZta3ZtZjR6bDZrRzJ2VFZOajBsRjFQaVBlbTF3clhBMVE?oc=5",
+      "source_url": "https://www.globalsouthopportunities.com",
+      "published": "2026-08-17T07:00:00+00:00",
+      "matched_keywords": [
+        "scholarship",
+        "scholarships",
+        "fully funded",
+        "africa"
+      ],
+      "discovered_at": "2026-09-15T12:02:29.164520+00:00",
       "status": "needs_verification"
     },
     {
@@ -1017,7 +1032,7 @@
         "jobs",
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T11:54:36.035338+00:00",
+      "discovered_at": "2026-09-15T12:02:29.886638+00:00",
       "status": "needs_verification"
     },
     {
@@ -1032,7 +1047,7 @@
         "job",
         "jobs"
       ],
-      "discovered_at": "2026-09-15T11:54:36.036012+00:00",
+      "discovered_at": "2026-09-15T12:02:29.887813+00:00",
       "status": "needs_verification"
     },
     {
@@ -1047,7 +1062,7 @@
         "scholarship",
         "scholarships"
       ],
-      "discovered_at": "2026-09-15T11:54:35.458943+00:00",
+      "discovered_at": "2026-09-15T12:02:29.165394+00:00",
       "status": "needs_verification"
     },
     {
@@ -1061,7 +1076,7 @@
       "matched_keywords": [
         "course"
       ],
-      "discovered_at": "2026-09-15T11:54:37.427382+00:00",
+      "discovered_at": "2026-09-15T12:02:31.255525+00:00",
       "status": "needs_verification"
     },
     {
@@ -1076,7 +1091,7 @@
         "job",
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T11:54:36.036225+00:00",
+      "discovered_at": "2026-09-15T12:02:29.888178+00:00",
       "status": "needs_verification"
     },
     {
@@ -1090,7 +1105,7 @@
       "matched_keywords": [
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T11:54:36.036704+00:00",
+      "discovered_at": "2026-09-15T12:02:29.889035+00:00",
       "status": "needs_verification"
     },
     {
@@ -1106,7 +1121,7 @@
         "jobs",
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T11:54:36.035930+00:00",
+      "discovered_at": "2026-09-15T12:02:29.887687+00:00",
       "status": "needs_verification"
     },
     {
@@ -1122,7 +1137,7 @@
         "jobs",
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T11:54:36.035950+00:00",
+      "discovered_at": "2026-09-15T12:02:29.887719+00:00",
       "status": "needs_verification"
     },
     {
@@ -1140,23 +1155,7 @@
         "students",
         "africa"
       ],
-      "discovered_at": "2026-09-15T11:54:35.458419+00:00",
-      "status": "needs_verification"
-    },
-    {
-      "title": "Investment drive opens new doors for housing, jobs and urban growth in Tanzania - dailynews.co.tz",
-      "source": "Google News - Jobs Tanzania",
-      "publisher_name": "dailynews.co.tz",
-      "publisher_url": "https://dailynews.co.tz",
-      "news_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQWR2VmhQS2ZzYTJXaThHZHhtRTB1NlQzRnI0N3h6OHRsRS13RzlmanZPamxycDc1S3BBN2ljOTF2bXNRbHRRbnRMMjdpZGtrQjJMRnF0SFluNTdqdjBUTGV2LWhVQ09QS2VjZUo2UzNHdjc4eS1YblpQakQtWkdqYmZieEdESWx3WWo0UkMzN2tkMzNHODBUeERwS3BxcU1nS3dDNnRn?oc=5",
-      "source_url": "https://dailynews.co.tz",
-      "published": "2026-08-10T08:50:17+00:00",
-      "matched_keywords": [
-        "job",
-        "jobs",
-        "tanzania"
-      ],
-      "discovered_at": "2026-09-15T11:54:36.036778+00:00",
+      "discovered_at": "2026-09-15T12:02:29.164400+00:00",
       "status": "needs_verification"
     },
     {
@@ -1172,7 +1171,7 @@
         "scholarships",
         "students"
       ],
-      "discovered_at": "2026-09-15T11:54:35.459365+00:00",
+      "discovered_at": "2026-09-15T12:02:29.166131+00:00",
       "status": "needs_verification"
     },
     {
@@ -1189,7 +1188,7 @@
         "fully funded",
         "students"
       ],
-      "discovered_at": "2026-09-15T11:54:35.458924+00:00",
+      "discovered_at": "2026-09-15T12:02:29.165338+00:00",
       "status": "needs_verification"
     },
     {
@@ -1206,7 +1205,7 @@
         "students",
         "africa"
       ],
-      "discovered_at": "2026-09-15T11:54:35.459051+00:00",
+      "discovered_at": "2026-09-15T12:02:29.165564+00:00",
       "status": "needs_verification"
     },
     {
@@ -1222,7 +1221,7 @@
         "students",
         "international students"
       ],
-      "discovered_at": "2026-09-15T11:54:35.458104+00:00",
+      "discovered_at": "2026-09-15T12:02:29.163836+00:00",
       "status": "needs_verification"
     },
     {
@@ -1238,7 +1237,7 @@
         "scholarships",
         "africa"
       ],
-      "discovered_at": "2026-09-15T11:54:35.459157+00:00",
+      "discovered_at": "2026-09-15T12:02:29.165779+00:00",
       "status": "needs_verification"
     },
     {
@@ -1255,7 +1254,7 @@
         "students",
         "africa"
       ],
-      "discovered_at": "2026-09-15T11:54:35.459261+00:00",
+      "discovered_at": "2026-09-15T12:02:29.165959+00:00",
       "status": "needs_verification"
     },
     {
@@ -1270,7 +1269,7 @@
         "course",
         "courses"
       ],
-      "discovered_at": "2026-09-15T11:54:37.426872+00:00",
+      "discovered_at": "2026-09-15T12:02:31.254600+00:00",
       "status": "needs_verification"
     },
     {
@@ -1286,7 +1285,7 @@
         "scholarships",
         "students"
       ],
-      "discovered_at": "2026-09-15T11:54:35.457900+00:00",
+      "discovered_at": "2026-09-15T12:02:29.163467+00:00",
       "status": "needs_verification"
     },
     {
@@ -1303,7 +1302,7 @@
         "students",
         "international students"
       ],
-      "discovered_at": "2026-09-15T11:54:35.458772+00:00",
+      "discovered_at": "2026-09-15T12:02:29.165084+00:00",
       "status": "needs_verification"
     },
     {
@@ -1317,7 +1316,7 @@
       "matched_keywords": [
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T11:54:36.035727+00:00",
+      "discovered_at": "2026-09-15T12:02:29.887349+00:00",
       "status": "needs_verification"
     },
     {
@@ -1331,7 +1330,7 @@
       "matched_keywords": [
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T11:54:36.036091+00:00",
+      "discovered_at": "2026-09-15T12:02:29.887947+00:00",
       "status": "needs_verification"
     },
     {
@@ -1347,7 +1346,7 @@
         "jobs",
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T11:54:36.036186+00:00",
+      "discovered_at": "2026-09-15T12:02:29.888106+00:00",
       "status": "needs_verification"
     },
     {
@@ -1365,7 +1364,7 @@
         "students",
         "africa"
       ],
-      "discovered_at": "2026-09-15T11:54:35.458748+00:00",
+      "discovered_at": "2026-09-15T12:02:29.165043+00:00",
       "status": "needs_verification"
     },
     {
@@ -1381,7 +1380,7 @@
         "scholarships",
         "africa"
       ],
-      "discovered_at": "2026-09-15T11:54:35.458545+00:00",
+      "discovered_at": "2026-09-15T12:02:29.164703+00:00",
       "status": "needs_verification"
     },
     {
@@ -1395,7 +1394,7 @@
       "matched_keywords": [
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T11:54:36.035477+00:00",
+      "discovered_at": "2026-09-15T12:02:29.886915+00:00",
       "status": "needs_verification"
     },
     {
@@ -1409,7 +1408,7 @@
       "matched_keywords": [
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T11:54:36.035994+00:00",
+      "discovered_at": "2026-09-15T12:02:29.887782+00:00",
       "status": "needs_verification"
     },
     {
@@ -1426,7 +1425,7 @@
         "students",
         "africa"
       ],
-      "discovered_at": "2026-09-15T11:54:35.458020+00:00",
+      "discovered_at": "2026-09-15T12:02:29.163696+00:00",
       "status": "needs_verification"
     },
     {
@@ -1441,7 +1440,7 @@
         "course",
         "courses"
       ],
-      "discovered_at": "2026-09-15T11:54:37.426918+00:00",
+      "discovered_at": "2026-09-15T12:02:31.254713+00:00",
       "status": "needs_verification"
     },
     {
@@ -1458,7 +1457,7 @@
         "fully funded",
         "africa"
       ],
-      "discovered_at": "2026-09-15T11:54:35.458701+00:00",
+      "discovered_at": "2026-09-15T12:02:29.164965+00:00",
       "status": "needs_verification"
     },
     {
@@ -1473,7 +1472,7 @@
         "internship",
         "students"
       ],
-      "discovered_at": "2026-09-15T11:54:36.765691+00:00",
+      "discovered_at": "2026-09-15T12:02:30.551434+00:00",
       "status": "needs_verification"
     },
     {
@@ -1488,7 +1487,7 @@
         "scholarship",
         "scholarships"
       ],
-      "discovered_at": "2026-09-15T11:54:35.458882+00:00",
+      "discovered_at": "2026-09-15T12:02:29.165229+00:00",
       "status": "needs_verification"
     },
     {
@@ -1504,7 +1503,7 @@
         "scholarships",
         "africa"
       ],
-      "discovered_at": "2026-09-15T11:54:35.458225+00:00",
+      "discovered_at": "2026-09-15T12:02:29.163999+00:00",
       "status": "needs_verification"
     },
     {
@@ -1519,7 +1518,7 @@
         "africa",
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T11:54:36.035055+00:00",
+      "discovered_at": "2026-09-15T12:02:29.886137+00:00",
       "status": "needs_verification"
     },
     {
@@ -1533,7 +1532,7 @@
       "matched_keywords": [
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T11:54:36.036437+00:00",
+      "discovered_at": "2026-09-15T12:02:29.888581+00:00",
       "status": "needs_verification"
     },
     {
@@ -1548,23 +1547,23 @@
         "course",
         "courses"
       ],
-      "discovered_at": "2026-09-15T11:54:37.426458+00:00",
+      "discovered_at": "2026-09-15T12:02:31.253904+00:00",
       "status": "needs_verification"
     },
     {
-      "title": "East African economies depend on informal jobs—but at a cost - The EastAfrican",
-      "source": "Google News - Jobs Tanzania",
-      "publisher_name": "The EastAfrican",
-      "publisher_url": "https://www.theeastafrican.co.ke",
-      "news_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbF9tbUxFbVlNTmJwa1AzMGNxOEs1UWJZU0V3YkZtcC1iQ3V5aXdNTzludUdYNXBieEY0cTlNVW9icnRIa0VOOE5veFhHOWpYc2pPT3A5aFZCT3dlYjBMdGNKV1RsWE1hSC1nY3hQVlI5dmlmTXloNGo4RTN0RndXRi01VG9oYVdzTXFpemRUY0xtOFI0MjhzeGFULTJpb2pCY3Z0SEZWRmY?oc=5",
-      "source_url": "https://www.theeastafrican.co.ke",
+      "title": "Kigali Tech Pivot: Why Nigerian students are hunting Rwandan scholarships - Tribune Online",
+      "source": "Google News - Scholarships",
+      "publisher_name": "Tribune Online",
+      "publisher_url": "https://tribuneonlineng.com",
+      "news_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNTZQRFFvNWF6UERpb1J5QlNOdE1vcW5YdTdfd2JyNGVLbmprbGJ3RU1FTTNwdTBDbTFnY0tyaGhuNFNiUHlCVDFhNTN2bHV2T1RDVGNLYlNPeWxoaFUtMWxsSVdzRWhfdmhaTHktMlhBOHZXWmZZOGFrLVowYUdySHV0T1pNZ2Zka3dESEg2cHFwMm1YWVZfMkhUX0ZQUTBxeE9N0gGoAUFVX3lxTE5tcXNzbTFKMWQzRmlfS0hDb0t5R3A1TS0zLWZndWlHQWoyZEl1dUd1SEVUZjhMaE9JMEZjTGZrZERQODh3dkJ0TnJvalYzbHZCOVR0VUFpMFZIcWJINWNYNVQtRWpMTUlPOHl5Wm5TaWJtS3FwNFRnM09KUzFIc0F2RlkxdkRuSEgtTkpuR2pWeTZCNjBjY3VqYXRZeDJFUTJoMU1jdmtVeA?oc=5",
+      "source_url": "https://tribuneonlineng.com",
       "published": "2026-07-24T07:00:00+00:00",
       "matched_keywords": [
-        "job",
-        "jobs",
-        "africa"
+        "scholarship",
+        "scholarships",
+        "students"
       ],
-      "discovered_at": "2026-09-15T11:54:36.036033+00:00",
+      "discovered_at": "2026-09-15T12:02:29.165744+00:00",
       "status": "needs_verification"
     }
   ]

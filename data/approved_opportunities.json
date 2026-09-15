@@ -1,5 +1,5 @@
 {
-  "approved_at": "2026-09-15T11:54:37.428653+00:00",
+  "approved_at": "2026-09-15T12:02:31.257543+00:00",
   "total_checked": 100,
   "approved_count": 10,
   "rejected_count": 90,
@@ -16,7 +16,7 @@
         "internship",
         "students"
       ],
-      "discovered_at": "2026-09-15T11:54:36.764763+00:00",
+      "discovered_at": "2026-09-15T12:02:30.549870+00:00",
       "status": "needs_verification",
       "verification_status": "verified_source",
       "verification_reason": "Source domain looks authoritative",
@@ -35,7 +35,7 @@
         "course",
         "courses"
       ],
-      "discovered_at": "2026-09-15T11:54:37.426592+00:00",
+      "discovered_at": "2026-09-15T12:02:31.254115+00:00",
       "status": "needs_verification",
       "verification_status": "verified_source",
       "verification_reason": "Source domain looks authoritative",
@@ -54,7 +54,7 @@
         "internship",
         "internships"
       ],
-      "discovered_at": "2026-09-15T11:54:36.764814+00:00",
+      "discovered_at": "2026-09-15T12:02:30.549959+00:00",
       "status": "needs_verification",
       "verification_status": "verified_source",
       "verification_reason": "Source domain looks authoritative",
@@ -73,7 +73,7 @@
         "scholarship",
         "students"
       ],
-      "discovered_at": "2026-09-15T11:54:35.457588+00:00",
+      "discovered_at": "2026-09-15T12:02:29.162968+00:00",
       "status": "needs_verification",
       "verification_status": "verified_source",
       "verification_reason": "Source domain looks authoritative",
@@ -94,7 +94,7 @@
         "students",
         "africa"
       ],
-      "discovered_at": "2026-09-15T11:54:35.457437+00:00",
+      "discovered_at": "2026-09-15T12:02:29.162714+00:00",
       "status": "needs_verification",
       "verification_status": "verified_source",
       "verification_reason": "Source domain looks authoritative",
@@ -115,7 +115,7 @@
         "job",
         "students"
       ],
-      "discovered_at": "2026-09-15T11:54:36.765049+00:00",
+      "discovered_at": "2026-09-15T12:02:30.550317+00:00",
       "status": "needs_verification",
       "verification_status": "verified_source",
       "verification_reason": "Source domain looks authoritative",
@@ -135,7 +135,7 @@
         "course",
         "courses"
       ],
-      "discovered_at": "2026-09-15T11:54:37.426373+00:00",
+      "discovered_at": "2026-09-15T12:02:31.253764+00:00",
       "status": "needs_verification",
       "verification_status": "verified_source",
       "verification_reason": "Source domain looks authoritative",
@@ -155,7 +155,7 @@
         "scholarships",
         "students"
       ],
-      "discovered_at": "2026-09-15T11:54:35.457900+00:00",
+      "discovered_at": "2026-09-15T12:02:29.163467+00:00",
       "status": "needs_verification",
       "verification_status": "verified_source",
       "verification_reason": "Source domain looks authoritative",
@@ -174,7 +174,7 @@
         "scholarship",
         "scholarships"
       ],
-      "discovered_at": "2026-09-15T11:54:35.458882+00:00",
+      "discovered_at": "2026-09-15T12:02:29.165229+00:00",
       "status": "needs_verification",
       "verification_status": "verified_source",
       "verification_reason": "Source domain looks authoritative",
@@ -194,7 +194,7 @@
         "scholarships",
         "africa"
       ],
-      "discovered_at": "2026-09-15T11:54:35.458225+00:00",
+      "discovered_at": "2026-09-15T12:02:29.163999+00:00",
       "status": "needs_verification",
       "verification_status": "verified_source",
       "verification_reason": "Source domain looks authoritative",
