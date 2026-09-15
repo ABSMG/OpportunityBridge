@@ -11,7 +11,9 @@ EXCLUDED = {
     "dashboard.html",
     "privacy.html",
     "disclaimer.html",
+    "google02254ba5ae5c48e2.html",
 }
+
 
 class SEOParser(HTMLParser):
     def __init__(self):
@@ -24,10 +26,10 @@ class SEOParser(HTMLParser):
         self.in_title = False
 
     def handle_starttag(self, tag, attrs):
-        attrs_dict = dict(attrs)
+        attrs = dict(attrs)
 
         if tag == "html":
-            self.lang = attrs_dict.get("lang")
+            self.lang = attrs.get("lang")
 
         elif tag == "title":
             self.in_title = True
@@ -36,14 +38,13 @@ class SEOParser(HTMLParser):
             self.h1_count += 1
 
         elif tag == "meta":
-            if attrs_dict.get("name", "").lower() == "description":
-                content = attrs_dict.get("content", "").strip()
-                if content:
+            if attrs.get("name", "").lower() == "description":
+                if attrs.get("content", "").strip():
                     self.meta_description = True
 
         elif tag == "link":
-            if attrs_dict.get("rel", "").lower() == "canonical":
-                if attrs_dict.get("href", "").strip():
+            if attrs.get("rel", "").lower() == "canonical":
+                if attrs.get("href", "").strip():
                     self.canonical = True
 
     def handle_endtag(self, tag):
@@ -59,8 +60,7 @@ def check_page(path):
     parser = SEOParser()
 
     try:
-        html = path.read_text(encoding="utf-8")
-        parser.feed(html)
+        parser.feed(path.read_text(encoding="utf-8"))
     except Exception as error:
         return [f"READ ERROR: {error}"]
 
@@ -74,8 +74,7 @@ def check_page(path):
 
     if parser.h1_count == 0:
         issues.append("Missing <h1>")
-
-    if parser.h1_count > 1:
+    elif parser.h1_count > 1:
         issues.append(f"Multiple <h1> tags ({parser.h1_count})")
 
     if not parser.lang:
@@ -88,16 +87,11 @@ def check_page(path):
 
 
 def main():
-    pages = []
-
-    for path in sorted(ROOT.glob("*.html")):
-        if path.name in EXCLUDED:
-            continue
-
-        if path.name.startswith("_"):
-            continue
-
-        pages.append(path)
+    pages = [
+        path for path in sorted(ROOT.glob("*.html"))
+        if path.name not in EXCLUDED
+        and not path.name.startswith("_")
+    ]
 
     total_issues = 0
     pages_with_issues = 0
@@ -114,7 +108,6 @@ def main():
             total_issues += len(issues)
 
             print(f"\n❌ {page.name}")
-
             for issue in issues:
                 print(f"   - {issue}")
         else:
@@ -134,3 +127,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+Commit message:
+
+fix: exclude Google verification file from SEO checks
