@@ -30,18 +30,14 @@ class SEOParser(HTMLParser):
 
         if tag == "html":
             self.lang = attrs.get("lang")
-
         elif tag == "title":
             self.in_title = True
-
         elif tag == "h1":
             self.h1_count += 1
-
         elif tag == "meta":
             if attrs.get("name", "").lower() == "description":
                 if attrs.get("content", "").strip():
                     self.meta_description = True
-
         elif tag == "link":
             if attrs.get("rel", "").lower() == "canonical":
                 if attrs.get("href", "").strip():
@@ -127,7 +123,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-Commit message:
-
-fix: exclude Google verification file from SEO checks
