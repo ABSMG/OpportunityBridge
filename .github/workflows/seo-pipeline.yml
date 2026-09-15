@@ -1,6 +1,12 @@
 name: SEO Pipeline
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - "*.html"
+      - "scripts/*.py"
   workflow_dispatch:
 
 permissions:
