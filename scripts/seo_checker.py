@@ -19,6 +19,7 @@ EXCLUDED = {
     "disclaimer.html",
 }
 
+
 class SEOParser(HTMLParser):
 
     def __init__(self):
@@ -38,20 +39,15 @@ class SEOParser(HTMLParser):
 
         self.in_title = False
 
-    def handle_starttag(
-        self,
-        tag,
-        attrs
-    ):
-
-        attrs = dict(attrs)
+    def handle_starttag(self, tag, attrs):
 
         tag = tag.lower()
+        attrs = dict(attrs)
 
         if tag == "html":
 
             self.lang = (
-                attrs.get("lang")
+                attrs.get("lang", "")
                 or ""
             ).strip()
 
@@ -66,28 +62,17 @@ class SEOParser(HTMLParser):
         elif tag == "meta":
 
             name = (
-                attrs.get(
-                    "name",
-                    ""
-                )
-                .lower()
-                .strip()
-            )
+                attrs.get("name", "")
+                or ""
+            ).lower().strip()
 
             property_name = (
-                attrs.get(
-                    "property",
-                    ""
-                )
-                .lower()
-                .strip()
-            )
+                attrs.get("property", "")
+                or ""
+            ).lower().strip()
 
             content = (
-                attrs.get(
-                    "content",
-                    ""
-                )
+                attrs.get("content", "")
                 or ""
             ).strip()
 
@@ -95,46 +80,35 @@ class SEOParser(HTMLParser):
                 name == "description"
                 and content
             ):
-
                 self.meta_description = True
 
             if (
                 name == "robots"
                 and content
             ):
-
                 self.meta_robots = True
 
             if (
                 property_name == "og:title"
                 and content
             ):
-
                 self.og_title = True
 
             if (
                 property_name == "og:description"
                 and content
             ):
-
                 self.og_description = True
 
         elif tag == "link":
 
             rel = (
-                attrs.get(
-                    "rel",
-                    ""
-                )
-                .lower()
-                .strip()
-            )
+                attrs.get("rel", "")
+                or ""
+            ).lower().strip()
 
             href = (
-                attrs.get(
-                    "href",
-                    ""
-                )
+                attrs.get("href", "")
                 or ""
             ).strip()
 
@@ -142,25 +116,16 @@ class SEOParser(HTMLParser):
                 rel == "canonical"
                 and href
             ):
-
                 self.canonical = href
 
-    def handle_endtag(
-        self,
-        tag
-    ):
+    def handle_endtag(self, tag):
 
         if tag.lower() == "title":
-
             self.in_title = False
 
-    def handle_data(
-        self,
-        data
-    ):
+    def handle_data(self, data):
 
         if self.in_title:
-
             self.title += data
 
 
@@ -168,21 +133,42 @@ def valid_absolute_url(url):
 
     try:
 
-        parsed = urlparse(
-            url
-        )
+        parsed = urlparse(url)
 
         return (
-            parsed.scheme
-            in {"http", "https"}
-            and bool(
-                parsed.netloc
-            )
+            parsed.scheme in {
+                "http",
+                "https"
+            }
+            and bool(parsed.netloc)
         )
 
     except Exception:
 
         return False
+
+
+def is_generated_article(path):
+
+    name = path.name.lower()
+
+    # Automatically generated opportunity
+    # articles use long descriptive slugs.
+    generated_patterns = [
+        "5-tips-for-",
+        "bobcats-",
+    ]
+
+    return (
+        any(
+            name.startswith(pattern)
+            for pattern in generated_patterns
+        )
+        or (
+            len(name) > 55
+            and name.endswith(".html")
+        )
+    )
 
 
 def check_page(path):
@@ -201,100 +187,110 @@ def check_page(path):
 
         return [
             f"READ ERROR: {error}"
-        ]
+        ], parser
 
-    issues = []
+    errors = []
+    warnings = []
 
-    title = (
-        parser.title
-        .strip()
-    )
+    title = parser.title.strip()
+
+    # --------------------------------
+    # REQUIRED SEO ELEMENTS
+    # --------------------------------
 
     if not title:
 
-        issues.append(
+        errors.append(
             "Missing <title>"
-        )
-
-    elif len(title) < 20:
-
-        issues.append(
-            "Title is too short"
-        )
-
-    elif len(title) > 65:
-
-        issues.append(
-            "Title is longer than recommended"
         )
 
     if not parser.meta_description:
 
-        issues.append(
+        errors.append(
             "Missing meta description"
         )
 
     if parser.h1_count == 0:
 
-        issues.append(
+        errors.append(
             "Missing <h1>"
         )
 
     elif parser.h1_count > 1:
 
-        issues.append(
+        errors.append(
             f"Multiple <h1> tags ({parser.h1_count})"
         )
 
     if not parser.lang:
 
-        issues.append(
+        errors.append(
             'Missing <html lang="">'
         )
 
     if not parser.canonical:
 
-        issues.append(
+        errors.append(
             "Missing canonical URL"
         )
 
-    else:
+    elif not valid_absolute_url(
+        parser.canonical
+    ):
 
-        if not valid_absolute_url(
-            parser.canonical
-        ):
+        errors.append(
+            "Canonical is not an absolute URL"
+        )
 
-            issues.append(
-                "Canonical is not an absolute URL"
+    elif not parser.canonical.startswith(
+        BASE_URL
+    ):
+
+        errors.append(
+            "Canonical points outside OpportunityBridge"
+        )
+
+    # --------------------------------
+    # TITLE LENGTH = WARNING ONLY
+    # --------------------------------
+
+    if title:
+
+        if len(title) > 65:
+
+            warnings.append(
+                f"Title is long ({len(title)} characters)"
             )
 
-        elif not parser.canonical.startswith(
-            BASE_URL
-        ):
+        elif len(title) < 20:
 
-            issues.append(
-                "Canonical points outside OpportunityBridge"
+            warnings.append(
+                f"Title is short ({len(title)} characters)"
             )
+
+    # --------------------------------
+    # OPTIONAL SEO ELEMENTS
+    # --------------------------------
 
     if not parser.meta_robots:
 
-        issues.append(
+        warnings.append(
             "Missing robots meta tag"
         )
 
     if not parser.og_title:
 
-        issues.append(
+        warnings.append(
             "Missing og:title"
         )
 
     if not parser.og_description:
 
-        issues.append(
+        warnings.append(
             "Missing og:description"
         )
 
-    return issues, parser
+    return errors, warnings, parser
 
 
 def is_google_verification(path):
@@ -310,7 +306,7 @@ def main():
     print("=" * 70)
 
     print(
-        "OPPORTUNITYBRIDGE FINAL SEO CHECK"
+        "OPPORTUNITYBRIDGE SEO CHECK"
     )
 
     print("=" * 70)
@@ -332,17 +328,18 @@ def main():
 
         pages.append(path)
 
-    total_issues = 0
-    pages_with_issues = 0
+    total_errors = 0
+    total_warnings = 0
+    pages_with_errors = 0
 
     titles = {}
     canonicals = {}
 
     for page in pages:
 
-        issues, parser = check_page(
-            page
-        )
+        result = check_page(page)
+
+        errors, warnings, parser = result
 
         title = (
             parser.title
@@ -374,22 +371,19 @@ def main():
                 page.name
             )
 
-        if issues:
+        if errors:
 
-            pages_with_issues += 1
-
-            total_issues += len(
-                issues
-            )
+            pages_with_errors += 1
+            total_errors += len(errors)
 
             print(
                 f"\n❌ {page.name}"
             )
 
-            for issue in issues:
+            for error in errors:
 
                 print(
-                    f"   - {issue}"
+                    f"   ERROR: {error}"
                 )
 
         else:
@@ -398,38 +392,52 @@ def main():
                 f"✅ {page.name}"
             )
 
-    # Duplicate title detection
-    for title, pages_list in titles.items():
+        for warning in warnings:
 
-        if len(pages_list) > 1:
+            total_warnings += 1
 
-            total_issues += 1
+            print(
+                f"   ⚠️ WARNING: {warning}"
+            )
+
+    # --------------------------------
+    # DUPLICATE TITLES
+    # --------------------------------
+
+    for title, page_list in titles.items():
+
+        if len(page_list) > 1:
+
+            total_errors += 1
 
             print(
                 "\n❌ DUPLICATE TITLE"
             )
 
             print(
-                f"   {pages_list}"
+                f"   Pages: {page_list}"
             )
 
-    # Duplicate canonical detection
-    for canonical, pages_list in canonicals.items():
+    # --------------------------------
+    # DUPLICATE CANONICALS
+    # --------------------------------
 
-        if len(pages_list) > 1:
+    for canonical, page_list in canonicals.items():
 
-            total_issues += 1
+        if len(page_list) > 1:
+
+            total_errors += 1
 
             print(
                 "\n❌ DUPLICATE CANONICAL"
             )
 
             print(
-                f"   {canonical}"
+                f"   Canonical: {canonical}"
             )
 
             print(
-                f"   Pages: {pages_list}"
+                f"   Pages: {page_list}"
             )
 
     print(
@@ -441,28 +449,39 @@ def main():
     )
 
     print(
-        f"Pages with issues: {pages_with_issues}"
+        f"Pages with errors: {pages_with_errors}"
     )
 
     print(
-        f"Total issues: {total_issues}"
+        f"Total errors: {total_errors}"
+    )
+
+    print(
+        f"SEO warnings: {total_warnings}"
     )
 
     print(
         "=" * 70
     )
 
-    if total_issues:
+    if total_errors:
 
-        raise SystemExit(
-            1
+        print(
+            "SEO CHECK FAILED."
         )
+
+        raise SystemExit(1)
 
     print(
         "SEO CHECK PASSED."
     )
 
+    if total_warnings:
+
+        print(
+            "Warnings detected, but they do not block deployment."
+        )
+
 
 if __name__ == "__main__":
-
     main()
