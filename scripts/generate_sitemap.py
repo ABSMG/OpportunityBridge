@@ -6,7 +6,6 @@ import subprocess
 BASE_URL = "https://absmg.github.io"
 ROOT = Path(__file__).resolve().parents[1]
 
-# Pages that should not appear in Google's public sitemap.
 EXCLUDED = {
     "404.html",
     "login.html",
@@ -25,20 +24,28 @@ PRIORITIES = {
     "skills.html": "0.8",
 }
 
-
 def get_last_modified(path: Path) -> str:
-    """Get the date of the latest Git commit affecting this file."""
     try:
         result = subprocess.run(
-            ["git", "log", "-1", "--format=%cs", "--", str(path.relative_to(ROOT))],
+            [
+                "git",
+                "log",
+                "-1",
+                "--format=%cs",
+                "--",
+                str(path.relative_to(ROOT))
+            ],
             cwd=ROOT,
             capture_output=True,
             text=True,
             check=True,
         )
+
         value = result.stdout.strip()
+
         if value:
             return value
+
     except Exception:
         pass
 
@@ -60,6 +67,7 @@ def url_for(path: Path) -> str:
 pages = []
 
 for path in ROOT.glob("*.html"):
+
     if path.name in EXCLUDED:
         continue
 
@@ -68,13 +76,14 @@ for path in ROOT.glob("*.html"):
 
     pages.append(path)
 
-# Homepage first, then alphabetical order.
+
 pages.sort(
     key=lambda p: (
         p.name.lower() != "index.html",
         p.name.lower()
     )
 )
+
 
 urlset = Element(
     "urlset",
@@ -83,18 +92,25 @@ urlset = Element(
     }
 )
 
+
 for page in pages:
 
     url = SubElement(urlset, "url")
 
     SubElement(url, "loc").text = url_for(page)
 
-    SubElement(url, "lastmod").text = get_last_modified(page)
+    SubElement(
+        url,
+        "lastmod"
+    ).text = get_last_modified(page)
 
     SubElement(
         url,
         "priority"
-    ).text = PRIORITIES.get(page.name, "0.6")
+    ).text = PRIORITIES.get(
+        page.name,
+        "0.6"
+    )
 
 
 output = ROOT / "sitemap.xml"
@@ -104,6 +120,7 @@ ElementTree(urlset).write(
     encoding="utf-8",
     xml_declaration=True
 )
+
 
 print(
     f"Generated sitemap.xml with {len(pages)} public HTML pages."
