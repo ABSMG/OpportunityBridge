@@ -11,7 +11,7 @@ EXCLUDED = {
     "dashboard.html",
     "privacy.html",
     "disclaimer.html",
-    "google02254ba5ae5c48e2.html",
+    
 }
 
 
@@ -85,9 +85,13 @@ def check_page(path):
 def main():
     pages = [
         path for path in sorted(ROOT.glob("*.html"))
-        if path.name not in EXCLUDED
-        and not path.name.startswith("_")
-    ]
+   if path.name not in EXCLUDED
+and not path.name.startswith("_")
+and not (
+    path.name.startswith("google")
+    and path.name.endswith(".html")
+) 
+    
 
     total_issues = 0
     pages_with_issues = 0
