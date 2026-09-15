@@ -34,19 +34,27 @@ jobs:
         run: |
           cat data/verified_opportunities.json
 
+      - name: Approve opportunities
+        run: |
+          python scripts/opportunity_approval.py
+
+      - name: Show approved opportunities
+        run: |
+          cat data/approved_opportunities.json
+
       - name: Show discoveries
         run: |
           cat data/discovered_opportunities.json
 
-      - name: Save discoveries
+      - name: Save discovery results
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add data/discovered_opportunities.json data/verified_opportunities.json
+          git add data/discovered_opportunities.json data/verified_opportunities.json data/approved_opportunities.json
 
           if git diff --cached --quiet; then
-            echo "No new discovery data."
+            echo "No new opportunity data."
           else
             git commit -m "chore: update opportunity discoveries"
             git push
