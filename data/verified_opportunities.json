@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-15T11:10:57.471969+00:00",
-  "total": 384,
+  "verified_at": "2026-09-15T11:10:57.471969+00:00",
+  "total_checked": 100,
   "items": [
     {
       "title": "Tanzania universities Face AI test as future of jobs, learning takes centre stage - thecitizen.co.tz",
@@ -13,7 +13,9 @@
         "tanzania"
       ],
       "discovered_at": "2026-09-15T11:10:56.171976+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "University of Manchester Global Futures Scholarships 2027: Over £6 Million for International Undergraduate and Master’s Students - Global South Opportunities",
@@ -26,7 +28,9 @@
         "students"
       ],
       "discovered_at": "2026-09-15T11:10:55.568184+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "2 Armenian students interning with NCWLIFE - ncwlife.com",
@@ -37,7 +41,9 @@
         "students"
       ],
       "discovered_at": "2026-09-15T11:10:56.844126+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Opportunity type unclear"
     },
     {
       "title": "West College Scotland offers free online courses in cyber security and more - Greenock Telegraph",
@@ -49,7 +55,9 @@
         "courses"
       ],
       "discovered_at": "2026-09-15T11:10:57.469570+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Stanford University Free Online Courses 2026: Learn from Stanford Online for Free Today! - Global South Opportunities",
@@ -61,7 +69,9 @@
         "courses"
       ],
       "discovered_at": "2026-09-15T11:10:57.469204+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Tanzania’s Kagera Coffee Nights Expose a Deeper Jobs and Skills Gap - pan african visions",
@@ -75,7 +85,9 @@
         "tanzania"
       ],
       "discovered_at": "2026-09-15T11:10:56.172067+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Top 10 Fully Funded International Scholarship Opportunities for African Students - The African Exponent",
@@ -89,7 +101,9 @@
         "africa"
       ],
       "discovered_at": "2026-09-15T11:10:55.568237+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Imperial President’s PhD Scholarships 2027–28 – Fully Funded PhD Opportunity - Global South Opportunities",
@@ -102,7 +116,9 @@
         "fully funded"
       ],
       "discovered_at": "2026-09-15T11:10:55.568748+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "ARC Ltd–GSSP Scholarship Program 2026 for Postgraduate Study in Africa (Fully Funded) - Opportunities For Africans",
@@ -115,7 +131,9 @@
         "africa"
       ],
       "discovered_at": "2026-09-15T11:10:55.568388+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Earn a Free UN Diploma in International Environmental Law and Governance Through 5 Online Courses: Self-paced, No Deadline - Global South Opportunities",
@@ -127,7 +145,9 @@
         "courses"
       ],
       "discovered_at": "2026-09-15T11:10:57.469598+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Get a Fully Funded UK PhD: Loughborough University Commonwealth Scholarships 2027 Cover Tuition, Stipend and UK Travel - Global South Opportunities",
@@ -140,7 +160,9 @@
         "fully funded"
       ],
       "discovered_at": "2026-09-15T11:10:55.569239+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Tanzania Must Risk Becoming \"Broke\" to Create 20 Million Jobs - Uchumi360",
@@ -153,7 +175,9 @@
         "tanzania"
       ],
       "discovered_at": "2026-09-15T11:10:56.172097+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Bobcats abroad: SISAL's International Internship Program sends students to six countries in its first summer - Ohio University",
@@ -165,7 +189,9 @@
         "students"
       ],
       "discovered_at": "2026-09-15T11:10:56.844093+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "How 3,500+ women are driving Tanzania’s foreign job boom - thecitizen.co.tz",
@@ -177,7 +203,9 @@
         "tanzania"
       ],
       "discovered_at": "2026-09-15T11:10:56.172657+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "ARC–GSSP Scholarship Programme 2026/2027: Fully Funded Postgraduate Scholarships for African Students - Global South Opportunities",
@@ -192,7 +220,9 @@
         "africa"
       ],
       "discovered_at": "2026-09-15T11:10:55.568600+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "7 best Switzerland scholarships for international students - Study International",
@@ -206,7 +236,9 @@
         "international students"
       ],
       "discovered_at": "2026-09-15T11:10:55.568301+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Stanford University Free Online Courses with Certificates 2026 | How to Apply - edugist.org",
@@ -218,7 +250,9 @@
         "courses"
       ],
       "discovered_at": "2026-09-15T11:10:57.469494+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Free Online Internship with Certificate: Benefits, How to Find & Platforms - Shiksha.com",
@@ -229,7 +263,9 @@
         "internship"
       ],
       "discovered_at": "2026-09-15T11:10:56.844868+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "University of Cape Town (UCT) Mastercard Foundation Scholars Program 2026: Fully Funded Scholarship for Young African Leaders - Global South Opportunities",
@@ -242,7 +278,9 @@
         "africa"
       ],
       "discovered_at": "2026-09-15T11:10:55.568979+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Tanzania balances wage hikes, local jobs push - dailynews.co.tz",
@@ -255,7 +293,9 @@
         "tanzania"
       ],
       "discovered_at": "2026-09-15T11:10:56.172493+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "5 Tips for Securing Summer Internships for Incoming First-Years - Harvard College",
@@ -267,7 +307,9 @@
         "internships"
       ],
       "discovered_at": "2026-09-15T11:10:56.844153+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Harvard University Free Online Courses 2026: Study from Anywhere With 100+ Courses Available Free of Charge, No IELTS - Global South Opportunities",
@@ -279,7 +321,9 @@
         "courses"
       ],
       "discovered_at": "2026-09-15T11:10:57.469648+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Pasteur MOOCs: Free Online Courses in Life and Health Sciences - Institut Pasteur",
@@ -291,7 +335,9 @@
         "courses"
       ],
       "discovered_at": "2026-09-15T11:10:57.469401+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Beyond the crown: Miss Universe finalists offered Dubai studies, jobs and land - thecitizen.co.tz",
@@ -303,7 +349,9 @@
         "jobs"
       ],
       "discovered_at": "2026-09-15T11:10:56.172594+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Enhance Your Knowledge with Free UNICEF Online Courses 2026: Learn Global Development Skills Through the UNICEF Agora Platform - Global South Opportunities",
@@ -315,7 +363,9 @@
         "courses"
       ],
       "discovered_at": "2026-09-15T11:10:57.469674+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Scholarship Opportunities for Students, Graduates & Researchers - fundsforNGOs",
@@ -327,7 +377,9 @@
         "students"
       ],
       "discovered_at": "2026-09-15T11:10:55.568517+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Financial Aid Options for International Students: What to Know | Best Global Universities | U.S. News - U.S. News & World Report",
@@ -339,7 +391,9 @@
         "international students"
       ],
       "discovered_at": "2026-09-15T11:10:55.568274+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Opportunity type unclear"
     },
     {
       "title": "From roadbed to economic transformation: SGR lays the track for Tanzania’s Vision 2050 - dailynews.co.tz",
@@ -350,7 +404,9 @@
         "tanzania"
       ],
       "discovered_at": "2026-09-15T11:10:56.173006+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Opportunity type unclear"
     },
     {
       "title": "Russia to increase scholarships for Tunisian students and cover their tuition and living expenses - TV BRICS",
@@ -363,7 +419,9 @@
         "students"
       ],
       "discovered_at": "2026-09-15T11:10:55.568491+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Tanzania urged to turn innovations into businesses, jobs - thecitizen.co.tz",
@@ -376,7 +434,9 @@
         "tanzania"
       ],
       "discovered_at": "2026-09-15T11:10:56.172684+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "WACA Student Scholars Program 2026: Fully Funded National Conference Opportunity - Global South Opportunities",
@@ -387,7 +447,9 @@
         "fully funded"
       ],
       "discovered_at": "2026-09-15T11:10:55.568840+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Opportunity type unclear"
     },
     {
       "title": "Call for Applications: AICA × DataCamp Scholarship 2026/2027 for Africans - Global South Opportunities",
@@ -399,7 +461,9 @@
         "africa"
       ],
       "discovered_at": "2026-09-15T11:10:55.568677+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "5 Free World Bank Online Courses to Build In-Demand Skills in 2026 - Global South Opportunities",
@@ -411,7 +475,9 @@
         "courses"
       ],
       "discovered_at": "2026-09-15T11:10:57.469695+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Somalia, Tanzania Discuss Youth Jobs and Digital Government Cooperation - Shabelle Media Network",
@@ -424,7 +490,9 @@
         "tanzania"
       ],
       "discovered_at": "2026-09-15T11:10:56.172260+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "12 full scholarships to Europe for 2025 and beyond - Study International",
@@ -436,7 +504,9 @@
         "scholarships"
       ],
       "discovered_at": "2026-09-15T11:10:55.568622+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Trump administration seeks to restrict internships for international students - Reuters",
@@ -450,7 +520,9 @@
         "international students"
       ],
       "discovered_at": "2026-09-15T11:10:56.844254+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Trump Limits Internships for International College Students - WSJ",
@@ -463,7 +535,9 @@
         "students"
       ],
       "discovered_at": "2026-09-15T11:10:56.844176+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "School opens inside Annapolis Mall, linking students to internships and community resources - WBAL News Radio",
@@ -476,7 +550,9 @@
         "students"
       ],
       "discovered_at": "2026-09-15T11:10:56.844202+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Online Free Courses: Top Certification Programs by Jaro - Jaro Education",
@@ -488,7 +564,9 @@
         "courses"
       ],
       "discovered_at": "2026-09-15T11:10:57.470516+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Tanzania explores ways of bolstering its labour market in Saudi Arabia, Gulf states - dailynews.co.tz",
@@ -499,7 +577,9 @@
         "tanzania"
       ],
       "discovered_at": "2026-09-15T11:10:56.173035+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Opportunity type unclear"
     },
     {
       "title": "University of Cape Town Mastercard Foundation Scholars Program 2027 for African Students - Global South Opportunities",
@@ -511,7 +591,9 @@
         "africa"
       ],
       "discovered_at": "2026-09-15T11:10:55.569576+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Opportunity type unclear"
     },
     {
       "title": "KidsRights Program Support Internship 2026 in Amsterdam: Paid Opportunity for Students in Children’s Rights, Youth Empowerment and Climate Action - Global South Opportunities",
@@ -523,7 +605,9 @@
         "students"
       ],
       "discovered_at": "2026-09-15T11:10:56.844366+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "South Africa Students Can Apply For 2027 Mastercard Foundation Scholarships - educationafricamag.com",
@@ -537,7 +621,9 @@
         "africa"
       ],
       "discovered_at": "2026-09-15T11:10:55.568329+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Female scholars dominate Africa Climate Collaborative scholarships - Daily Monitor",
@@ -550,7 +636,9 @@
         "africa"
       ],
       "discovered_at": "2026-09-15T11:10:55.569365+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "TOWARDS TANZANIA 2050: The role of the National Commission for UNESCO in building future skills - dailynews.co.tz",
@@ -561,7 +649,9 @@
         "tanzania"
       ],
       "discovered_at": "2026-09-15T11:10:56.173285+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Opportunity type unclear"
     },
     {
       "title": "Tanzania insists the AI won’t threaten human jobs, it only aims to improve efficiency - dailynews.co.tz",
@@ -574,7 +664,9 @@
         "tanzania"
       ],
       "discovered_at": "2026-09-15T11:10:56.172937+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Panda Academy empowers 50 Young women to build thriving beauty businesses in Tanzania - dailynews.co.tz",
@@ -585,7 +677,9 @@
         "tanzania"
       ],
       "discovered_at": "2026-09-15T11:10:56.173563+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Opportunity type unclear"
     },
     {
       "title": "TZ deploys 8,400 youths for overseas jobs - dailynews.co.tz",
@@ -597,7 +691,9 @@
         "jobs"
       ],
       "discovered_at": "2026-09-15T11:10:56.173607+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Global Elim Foundation awards scholarships to 32 international students - The Korea Times",
@@ -611,7 +707,9 @@
         "international students"
       ],
       "discovered_at": "2026-09-15T11:10:55.568545+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "BWIRE: How Equity scholarships are opening doors for Africa’s brightest students - the-star.co.ke",
@@ -625,7 +723,9 @@
         "africa"
       ],
       "discovered_at": "2026-09-15T11:10:55.569441+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "EAC Scholarship Programme 2026: Fully Funded Master’s Study at USIU-Africa for East African Students in Kenya - Global South Opportunities",
@@ -639,7 +739,9 @@
         "africa"
       ],
       "discovered_at": "2026-09-15T11:10:55.569499+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "‘Hidden gem’: Montana State’s Bracken Center helping students find internships, job offers - Montana State University",
@@ -653,7 +755,9 @@
         "students"
       ],
       "discovered_at": "2026-09-15T11:10:56.844428+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Swiss Government Excellence Scholarships 2027/2028 for Foreign Students & Artists to study in Switzerland (Funded) - Opportunities For Africans",
@@ -667,7 +771,9 @@
         "africa"
       ],
       "discovered_at": "2026-09-15T11:10:55.568649+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "KfW EAC Master’s Scholarships 2026/2027 for young East Africans ( Fully Funded) - Opportunities For Africans",
@@ -681,7 +787,9 @@
         "africa"
       ],
       "discovered_at": "2026-09-15T11:10:55.568718+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Tanzania banks on mineral value addition’s strong link with industrial sector to attain 1tri US dollar- economy - dailynews.co.tz",
@@ -692,7 +800,9 @@
         "tanzania"
       ],
       "discovered_at": "2026-09-15T11:10:56.173714+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Opportunity type unclear"
     },
     {
       "title": "Tanzania’s billionaire-led MeTL plans $250 million Mozambique expansion targeting 20,000 jobs - africa.businessinsider.com",
@@ -706,7 +816,9 @@
         "tanzania"
       ],
       "discovered_at": "2026-09-15T11:10:56.172140+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Mozambique: Tanzania’s MeTL Group plans US$250M investment and 20,000 jobs - CLUB OF MOZAMBIQUE",
@@ -719,7 +831,9 @@
         "tanzania"
       ],
       "discovered_at": "2026-09-15T11:10:56.172222+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Tanzanian billionaire Mo Dewji pledges to invest $250 million in Mozambique and create 20,000 jobs - Billionaires.Africa",
@@ -733,7 +847,9 @@
         "tanzania"
       ],
       "discovered_at": "2026-09-15T11:10:56.172298+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "UNDP urges Tanzanian universities to turn research into businesses to tackle jobs crisis - thecitizen.co.tz",
@@ -746,7 +862,9 @@
         "tanzania"
       ],
       "discovered_at": "2026-09-15T11:10:56.172727+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Free IT Certifications and Courses to Elevate Your Career - coursera.org",
@@ -759,7 +877,9 @@
         "courses"
       ],
       "discovered_at": "2026-09-15T11:10:57.469238+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "TARURA to create more jobs through road maintenance - dailynews.co.tz",
@@ -771,7 +891,9 @@
         "jobs"
       ],
       "discovered_at": "2026-09-15T11:10:56.174868+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Tanzania, Netherlands deepen partnership around investment, jobs, skills - ippmedia.co.tz",
@@ -784,7 +906,9 @@
         "tanzania"
       ],
       "discovered_at": "2026-09-15T11:10:56.173121+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Airtel Malawi Awards First 25 Tech Scholarships to Students Across 17 Districts - TechAfrica News",
@@ -798,7 +922,9 @@
         "africa"
       ],
       "discovered_at": "2026-09-15T11:10:55.569687+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Up to 120 Fully Funded KfW EAC Master’s Scholarships in East Africa 2026/2027 – Get Tuition, Monthly Stipend, Travel & Research Support - Global South Opportunities",
@@ -812,7 +938,9 @@
         "africa"
       ],
       "discovered_at": "2026-09-15T11:10:55.569610+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Tanzania and World Bank Finalize KAZI MPA Central Corridor Jobs Programme to Boost Youth Employment and Private-Sector Growth - TanzaniaInvest",
@@ -825,7 +953,9 @@
         "tanzania"
       ],
       "discovered_at": "2026-09-15T11:10:56.172969+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Innovation must deliver jobs, better services: Stakeholders - thecitizen.co.tz",
@@ -837,7 +967,9 @@
         "jobs"
       ],
       "discovered_at": "2026-09-15T11:10:56.173922+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Thousands go without scholarships amid TVET funding shortfall - Daily Nation",
@@ -849,7 +981,9 @@
         "scholarships"
       ],
       "discovered_at": "2026-09-15T11:10:55.570245+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "HarvardX CS50’s Introduction to Cybersecurity 2026: Enrol in Harvard’s Popular Free Online Course on edX - Global South Opportunities",
@@ -860,7 +994,9 @@
         "course"
       ],
       "discovered_at": "2026-09-15T11:10:57.470405+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "CAUGHT IN CRISIS| Two Years On, Tanzania’s Fish Shortage Threatens Job - dailynews.co.tz",
@@ -872,7 +1008,9 @@
         "tanzania"
       ],
       "discovered_at": "2026-09-15T11:10:56.174249+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Tanzania, World Bank seal key technical preps for KAZI MPA project along its central development corridor - dailynews.co.tz",
@@ -883,7 +1021,9 @@
         "tanzania"
       ],
       "discovered_at": "2026-09-15T11:10:56.174980+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Opportunity type unclear"
     },
     {
       "title": "Tanzania’s youth challenge: More graduates, but where are the jobs? - thecitizen.co.tz",
@@ -896,7 +1036,9 @@
         "tanzania"
       ],
       "discovered_at": "2026-09-15T11:10:56.173845+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Young Tanzanians turn farming into new route to jobs, business - thecitizen.co.tz",
@@ -909,7 +1051,9 @@
         "tanzania"
       ],
       "discovered_at": "2026-09-15T11:10:56.173871+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Oxford AfOx Graduate Scholarships 2027–28 Offer Fully Funded MBA Opportunities for African Students - Global South Opportunities",
@@ -924,7 +1068,9 @@
         "africa"
       ],
       "discovered_at": "2026-09-15T11:10:55.569553+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Around the World, McCourt Students Bring Development Policy to Life - McCourt School of Public Policy",
@@ -935,7 +1081,9 @@
         "students"
       ],
       "discovered_at": "2026-09-15T11:10:56.844319+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Opportunity type unclear"
     },
     {
       "title": "Investment drive opens new doors for housing, jobs and urban growth in Tanzania - dailynews.co.tz",
@@ -948,7 +1096,9 @@
         "tanzania"
       ],
       "discovered_at": "2026-09-15T11:10:56.175090+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "From students’ scholarships to loans: Is Kenya making the right move? - People Daily",
@@ -961,7 +1111,9 @@
         "students"
       ],
       "discovered_at": "2026-09-15T11:10:55.570771+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "University of Sussex (US) Commonwealth PhD Scholarships 2027: Fully Funded PhD Opportunity for Students from Eligible Commonwealth Countries - Global South Opportunities",
@@ -975,7 +1127,9 @@
         "students"
       ],
       "discovered_at": "2026-09-15T11:10:55.570223+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "121 East African students win Sh3 billion global scholarships, putting education at heart of Africa’s future - Education News",
@@ -989,7 +1143,9 @@
         "africa"
       ],
       "discovered_at": "2026-09-15T11:10:55.570355+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Wageningen University Opens 2027 Master’s Scholarship Opportunities for International Students - Global South Opportunities",
@@ -1002,7 +1158,9 @@
         "international students"
       ],
       "discovered_at": "2026-09-15T11:10:55.569168+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Equity sends 121 E. African scholars to world's top universities on Sh3 billion scholarships - the-star.co.ke",
@@ -1015,7 +1173,9 @@
         "africa"
       ],
       "discovered_at": "2026-09-15T11:10:55.570508+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "121 East African students land Sh3bn in global university scholarships - the-star.co.ke",
@@ -1029,7 +1189,9 @@
         "africa"
       ],
       "discovered_at": "2026-09-15T11:10:55.570632+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "5 Free Courses to Learn Modern AI and LLMs - kdnuggets.com",
@@ -1041,7 +1203,9 @@
         "courses"
       ],
       "discovered_at": "2026-09-15T11:10:57.469831+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Bulletin: 40 Partial Scholarships forWar-Affected Students at Egyptian-Russian University; Saudi University Lets Graduates of Health Related Subjects Study Medicine - Al-Fanar Media",
@@ -1054,7 +1218,9 @@
         "students"
       ],
       "discovered_at": "2026-09-15T11:10:55.568904+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Study in Norway 2026–2027 Without IELTS: Fully Funded Scholarship Opportunities for International Students - Global South Opportunities",
@@ -1068,7 +1234,9 @@
         "international students"
       ],
       "discovered_at": "2026-09-15T11:10:55.570040+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "The silent struggle affecting new graduates’ path to employment in Tanzania - thecitizen.co.tz",
@@ -1079,7 +1247,9 @@
         "tanzania"
       ],
       "discovered_at": "2026-09-15T11:10:56.173535+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Opportunity type unclear"
     },
     {
       "title": "Why domestic workers are becoming scarce in Tanzania - thecitizen.co.tz",
@@ -1090,7 +1260,9 @@
         "tanzania"
       ],
       "discovered_at": "2026-09-15T11:10:56.174056+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Opportunity type unclear"
     },
     {
       "title": "Tanzania’s edible oil dilemma: How imports 'export' local jobs - thecitizen.co.tz",
@@ -1103,7 +1275,9 @@
         "tanzania"
       ],
       "discovered_at": "2026-09-15T11:10:56.174191+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Chevening Scholarships 2027–2028 for South African Students Now Open: Fully Funded UK Master's Opportunity (Apply by 6 October 2026) - Global South Opportunities",
@@ -1118,7 +1292,9 @@
         "africa"
       ],
       "discovered_at": "2026-09-15T11:10:55.570009+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Airtel Africa Foundation Awards Scholarships and Laptops to 23 University of Ilorin Freshers - TechAfrica News",
@@ -1131,7 +1307,9 @@
         "africa"
       ],
       "discovered_at": "2026-09-15T11:10:55.569770+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "WFP Programme Policy Officer (Climate Resilience) 2026 in Tanzania: Join the UN's Climate Action Team - Global South Opportunities",
@@ -1142,7 +1320,9 @@
         "tanzania"
       ],
       "discovered_at": "2026-09-15T11:10:56.173175+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Opportunity type unclear"
     },
     {
       "title": "Dutch envoy pushes investment, value-addition agenda for Tanzania - dailynews.co.tz",
@@ -1153,7 +1333,9 @@
         "tanzania"
       ],
       "discovered_at": "2026-09-15T11:10:56.173947+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Opportunity type unclear"
     },
     {
       "title": "Japan Africa Dream Scholarship (JADS) Program 2026: Fully Supported Master’s Scholarships for African Students - Global South Opportunities",
@@ -1167,7 +1349,9 @@
         "africa"
       ],
       "discovered_at": "2026-09-15T11:10:55.569068+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Enhance Your Knowledge: Explore 2026 Free Online Courses with the University of Birmingham - Global South Opportunities",
@@ -1179,7 +1363,9 @@
         "courses"
       ],
       "discovered_at": "2026-09-15T11:10:57.469886+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "France-South Africa Scholarship Programme 2027 Opens Applications | Fully Funded Master's and PhD Scholarships in France - Global South Opportunities",
@@ -1193,7 +1379,9 @@
         "africa"
       ],
       "discovered_at": "2026-09-15T11:10:55.569954+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Invertis University Secures 3,853+ Internship Opportunities for Students Across Google, AWS, Siemens & More - ANI News",
@@ -1205,7 +1393,9 @@
         "students"
       ],
       "discovered_at": "2026-09-15T11:10:56.845190+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "CFAs: Canon Collins RMTF Scholarships for Postgraduate Study - fundsforNGOs",
@@ -1217,7 +1407,9 @@
         "scholarships"
       ],
       "discovered_at": "2026-09-15T11:10:55.570144+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "Tom Queba and Pegasys Scholarships for Social Change (South Africa) - fundsforNGOs",
@@ -1230,7 +1422,9 @@
         "africa"
       ],
       "discovered_at": "2026-09-15T11:10:55.569286+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     },
     {
       "title": "IFC’s Landmark Shilling Bond Raises $100 Million for Tanzania’s Small Businesses - ednews.africa",
@@ -1242,7 +1436,9 @@
         "tanzania"
       ],
       "discovered_at": "2026-09-15T11:10:56.172529+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Opportunity type unclear"
     },
     {
       "title": "Thrown away today, valuable tomorrow: Rethinking Tanzania’s waste economy - dailynews.co.tz",
@@ -1253,7 +1449,9 @@
         "tanzania"
       ],
       "discovered_at": "2026-09-15T11:10:56.174551+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Opportunity type unclear"
     },
     {
       "title": "5 free online courses military spouses should take advantage of this year - We Are The Mighty",
@@ -1265,7 +1463,9 @@
         "courses"
       ],
       "discovered_at": "2026-09-15T11:10:57.469337+00:00",
-      "status": "needs_verification"
+      "status": "needs_verification",
+      "verification_status": "needs_review",
+      "verification_reason": "Source requires manual verification"
     }
   ]
 }
