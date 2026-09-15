@@ -11,7 +11,6 @@ EXCLUDED = {
     "dashboard.html",
     "privacy.html",
     "disclaimer.html",
-    
 }
 
 
@@ -30,14 +29,18 @@ class SEOParser(HTMLParser):
 
         if tag == "html":
             self.lang = attrs.get("lang")
+
         elif tag == "title":
             self.in_title = True
+
         elif tag == "h1":
             self.h1_count += 1
+
         elif tag == "meta":
             if attrs.get("name", "").lower() == "description":
                 if attrs.get("content", "").strip():
                     self.meta_description = True
+
         elif tag == "link":
             if attrs.get("rel", "").lower() == "canonical":
                 if attrs.get("href", "").strip():
@@ -82,16 +85,27 @@ def check_page(path):
     return issues
 
 
+def is_google_verification(path):
+    return (
+        path.name.startswith("google")
+        and path.name.endswith(".html")
+    )
+
+
 def main():
-    pages = [
-        path for path in sorted(ROOT.glob("*.html"))
-   if path.name not in EXCLUDED
-and not path.name.startswith("_")
-and not (
-    path.name.startswith("google")
-    and path.name.endswith(".html")
-) 
-    
+    pages = []
+
+    for path in sorted(ROOT.glob("*.html")):
+        if path.name in EXCLUDED:
+            continue
+
+        if path.name.startswith("_"):
+            continue
+
+        if is_google_verification(path):
+            continue
+
+        pages.append(path)
 
     total_issues = 0
     pages_with_issues = 0
@@ -108,6 +122,7 @@ and not (
             total_issues += len(issues)
 
             print(f"\n❌ {page.name}")
+
             for issue in issues:
                 print(f"   - {issue}")
         else:
