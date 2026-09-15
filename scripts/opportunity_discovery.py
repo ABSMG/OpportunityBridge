@@ -10,6 +10,7 @@ import xml.etree.ElementTree as ET
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "data" / "discovered_opportunities.json"
 
+
 FEEDS = {
     "Google News - Scholarships":
         "https://news.google.com/rss/search?q=scholarships+Africa+students&hl=en&gl=US&ceid=US:en",
@@ -64,6 +65,7 @@ def parse_date(value):
         return parsedate_to_datetime(value).astimezone(
             timezone.utc
         ).isoformat()
+
     except Exception:
         return value
 
@@ -72,13 +74,15 @@ def fetch_feed(url):
     request = urllib.request.Request(
         url,
         headers={
-            "User-Agent": (
+            "User-Agent":
                 "OpportunityBridge Opportunity Discovery Bot/1.0"
-            )
         },
     )
 
-    with urllib.request.urlopen(request, timeout=20) as response:
+    with urllib.request.urlopen(
+        request,
+        timeout=20
+    ) as response:
         return response.read()
 
 
@@ -88,21 +92,55 @@ def parse_feed(xml_data, source_name):
     items = []
 
     for item in root.findall(".//item"):
+
         title = clean_text(
-            item.findtext("title", default="")
+            item.findtext(
+                "title",
+                default=""
+            )
         )
 
-        link = clean_text(
-            item.findtext("link", default="")
+        news_url = clean_text(
+            item.findtext(
+                "link",
+                default=""
+            )
         )
 
         description = clean_text(
-            item.findtext("description", default="")
+            item.findtext(
+                "description",
+                default=""
+            )
         )
 
         published = parse_date(
-            item.findtext("pubDate", default="")
+            item.findtext(
+                "pubDate",
+                default=""
+            )
         )
+
+        # Google News RSS normally provides publisher
+        # information inside the <source> element.
+        source_element = item.find(
+            "source"
+        )
+
+        publisher_name = ""
+        publisher_url = ""
+
+        if source_element is not None:
+            publisher_name = clean_text(
+                source_element.text or ""
+            )
+
+            publisher_url = clean_text(
+                source_element.get(
+                    "url",
+                    ""
+                )
+            )
 
         combined = (
             f"{title} {description}"
@@ -120,14 +158,34 @@ def parse_feed(xml_data, source_name):
         items.append(
             {
                 "title": title,
+
                 "source": source_name,
-                "source_url": link,
-                "published": published,
-                "matched_keywords": matched_keywords,
-                "discovered_at": datetime.now(
-                    timezone.utc
-                ).isoformat(),
-                "status": "needs_verification",
+
+                "publisher_name":
+                    publisher_name,
+
+                "publisher_url":
+                    publisher_url,
+
+                "news_url":
+                    news_url,
+
+                "source_url":
+                    publisher_url or news_url,
+
+                "published":
+                    published,
+
+                "matched_keywords":
+                    matched_keywords,
+
+                "discovered_at":
+                    datetime.now(
+                        timezone.utc
+                    ).isoformat(),
+
+                "status":
+                    "needs_verification",
             }
         )
 
@@ -136,9 +194,14 @@ def parse_feed(xml_data, source_name):
 
 def remove_duplicates(items):
     unique = {}
+
     for item in items:
+
         key = (
-            item["title"]
+            item.get(
+                "title",
+                ""
+            )
             .strip()
             .lower()
         )
@@ -146,40 +209,62 @@ def remove_duplicates(items):
         if key and key not in unique:
             unique[key] = item
 
-    return list(unique.values())
+    return list(
+        unique.values()
+    )
 
 
 def main():
+
+    print("=" * 60)
+    print(
+        "OPPORTUNITYBRIDGE DISCOVERY SYSTEM"
+    )
+    print("=" * 60)
+
     all_items = []
 
-    print("=" * 60)
-    print("OPPORTUNITYBRIDGE DISCOVERY SYSTEM")
-    print("=" * 60)
-
     for source_name, feed_url in FEEDS.items():
-        print(f"\nChecking: {source_name}")
+
+        print(
+            f"\nChecking: {source_name}"
+        )
 
         try:
-            xml_data = fetch_feed(feed_url)
+
+            xml_data = fetch_feed(
+                feed_url
+            )
+
             items = parse_feed(
                 xml_data,
                 source_name
             )
 
-            print(f"Found: {len(items)} relevant items")
+            print(
+                f"Found: {len(items)} relevant items"
+            )
 
-            all_items.extend(items)
+            all_items.extend(
+                items
+            )
 
         except Exception as error:
-            print(f"ERROR: {error}")
 
-    all_items = remove_duplicates(all_items)
+            print(
+                f"ERROR: {error}"
+            )
+
+    all_items = remove_duplicates(
+        all_items
+    )
 
     all_items.sort(
-        key=lambda item: item.get(
-            "published",
-            ""
-        ),
+        key=lambda item:
+            item.get(
+                "published",
+                ""
+            ),
         reverse=True,
     )
 
@@ -189,13 +274,16 @@ def main():
     )
 
     payload = {
-        "generated_at": datetime.now(
-            timezone.utc
-        ).isoformat(),
+        "generated_at":
+            datetime.now(
+                timezone.utc
+            ).isoformat(),
 
-        "total": len(all_items),
+        "total":
+            len(all_items),
 
-        "items": all_items[:100],
+        "items":
+            all_items[:100],
     }
 
     OUTPUT.write_text(
@@ -208,10 +296,15 @@ def main():
     )
 
     print("\n" + "=" * 60)
+
     print(
         f"Saved {len(all_items[:100])} discoveries."
     )
-    print(f"Output: {OUTPUT}")
+
+    print(
+        f"Output: {OUTPUT}"
+    )
+
     print("=" * 60)
 
 
