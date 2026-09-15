@@ -1,0 +1,30 @@
+name: SEO Check
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "*.html"
+      - "scripts/seo_checker.py"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  seo-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Run SEO checker
+        run: |
+          python scripts/seo_checker.py
