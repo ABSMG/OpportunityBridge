@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T12:09:20.519357+00:00",
+  "generated_at": "2026-09-15T12:11:08.365516+00:00",
   "total": 384,
   "items": [
     {
@@ -15,7 +15,7 @@
         "scholarships",
         "students"
       ],
-      "discovered_at": "2026-09-15T12:09:19.081903+00:00",
+      "discovered_at": "2026-09-15T12:11:07.013836+00:00",
       "status": "needs_verification"
     },
     {
@@ -31,7 +31,7 @@
         "jobs",
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T12:09:19.555718+00:00",
+      "discovered_at": "2026-09-15T12:11:07.483157+00:00",
       "status": "needs_verification"
     },
     {
@@ -47,7 +47,7 @@
         "scholarships",
         "students"
       ],
-      "discovered_at": "2026-09-15T12:09:19.081803+00:00",
+      "discovered_at": "2026-09-15T12:11:07.013777+00:00",
       "status": "needs_verification"
     },
     {
@@ -61,7 +61,7 @@
       "matched_keywords": [
         "students"
       ],
-      "discovered_at": "2026-09-15T12:09:20.106528+00:00",
+      "discovered_at": "2026-09-15T12:11:07.954477+00:00",
       "status": "needs_verification"
     },
     {
@@ -76,7 +76,7 @@
         "course",
         "courses"
       ],
-      "discovered_at": "2026-09-15T12:09:20.516018+00:00",
+      "discovered_at": "2026-09-15T12:11:08.362224+00:00",
       "status": "needs_verification"
     },
     {
@@ -91,7 +91,7 @@
         "course",
         "courses"
       ],
-      "discovered_at": "2026-09-15T12:09:20.515518+00:00",
+      "discovered_at": "2026-09-15T12:11:08.361669+00:00",
       "status": "needs_verification"
     },
     {
@@ -108,7 +108,7 @@
         "africa",
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T12:09:19.555775+00:00",
+      "discovered_at": "2026-09-15T12:11:07.483238+00:00",
       "status": "needs_verification"
     },
     {
@@ -125,7 +125,7 @@
         "students",
         "africa"
       ],
-      "discovered_at": "2026-09-15T12:09:19.081990+00:00",
+      "discovered_at": "2026-09-15T12:11:07.013882+00:00",
       "status": "needs_verification"
     },
     {
@@ -141,7 +141,7 @@
         "scholarships",
         "fully funded"
       ],
-      "discovered_at": "2026-09-15T12:09:19.083474+00:00",
+      "discovered_at": "2026-09-15T12:11:07.014580+00:00",
       "status": "needs_verification"
     },
     {
@@ -157,7 +157,7 @@
         "fully funded",
         "africa"
       ],
-      "discovered_at": "2026-09-15T12:09:19.082407+00:00",
+      "discovered_at": "2026-09-15T12:11:07.014081+00:00",
       "status": "needs_verification"
     },
     {
@@ -172,7 +172,7 @@
         "course",
         "courses"
       ],
-      "discovered_at": "2026-09-15T12:09:20.516055+00:00",
+      "discovered_at": "2026-09-15T12:11:08.362267+00:00",
       "status": "needs_verification"
     },
     {
@@ -188,7 +188,7 @@
         "scholarships",
         "fully funded"
       ],
-      "discovered_at": "2026-09-15T12:09:19.085241+00:00",
+      "discovered_at": "2026-09-15T12:11:07.015434+00:00",
       "status": "needs_verification"
     },
     {
@@ -204,7 +204,7 @@
         "jobs",
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T12:09:19.555812+00:00",
+      "discovered_at": "2026-09-15T12:11:07.483280+00:00",
       "status": "needs_verification"
     },
     {
@@ -219,7 +219,7 @@
         "internship",
         "students"
       ],
-      "discovered_at": "2026-09-15T12:09:20.106484+00:00",
+      "discovered_at": "2026-09-15T12:11:07.954435+00:00",
       "status": "needs_verification"
     },
     {
@@ -234,7 +234,7 @@
         "job",
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T12:09:19.556401+00:00",
+      "discovered_at": "2026-09-15T12:11:07.483863+00:00",
       "status": "needs_verification"
     },
     {
@@ -252,7 +252,7 @@
         "students",
         "africa"
       ],
-      "discovered_at": "2026-09-15T12:09:19.083033+00:00",
+      "discovered_at": "2026-09-15T12:11:07.014382+00:00",
       "status": "needs_verification"
     },
     {
@@ -269,7 +269,7 @@
         "students",
         "international students"
       ],
-      "discovered_at": "2026-09-15T12:09:19.082150+00:00",
+      "discovered_at": "2026-09-15T12:11:07.013963+00:00",
       "status": "needs_verification"
     },
     {
@@ -284,7 +284,7 @@
         "course",
         "courses"
       ],
-      "discovered_at": "2026-09-15T12:09:20.515913+00:00",
+      "discovered_at": "2026-09-15T12:11:08.362094+00:00",
       "status": "needs_verification"
     },
     {
@@ -298,7 +298,7 @@
       "matched_keywords": [
         "internship"
       ],
-      "discovered_at": "2026-09-15T12:09:20.107553+00:00",
+      "discovered_at": "2026-09-15T12:11:07.955508+00:00",
       "status": "needs_verification"
     },
     {
@@ -314,7 +314,7 @@
         "fully funded",
         "africa"
       ],
-      "discovered_at": "2026-09-15T12:09:19.084327+00:00",
+      "discovered_at": "2026-09-15T12:11:07.014977+00:00",
       "status": "needs_verification"
     },
     {
@@ -330,7 +330,7 @@
         "jobs",
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T12:09:19.556217+00:00",
+      "discovered_at": "2026-09-15T12:11:07.483681+00:00",
       "status": "needs_verification"
     },
     {
@@ -345,7 +345,7 @@
         "internship",
         "internships"
       ],
-      "discovered_at": "2026-09-15T12:09:20.106565+00:00",
+      "discovered_at": "2026-09-15T12:11:07.954515+00:00",
       "status": "needs_verification"
     },
     {
@@ -360,7 +360,7 @@
         "course",
         "courses"
       ],
-      "discovered_at": "2026-09-15T12:09:20.516126+00:00",
+      "discovered_at": "2026-09-15T12:11:08.362341+00:00",
       "status": "needs_verification"
     },
     {
@@ -375,7 +375,7 @@
         "course",
         "courses"
       ],
-      "discovered_at": "2026-09-15T12:09:20.515780+00:00",
+      "discovered_at": "2026-09-15T12:11:08.361951+00:00",
       "status": "needs_verification"
     },
     {
@@ -390,7 +390,7 @@
         "job",
         "jobs"
       ],
-      "discovered_at": "2026-09-15T12:09:19.556330+00:00",
+      "discovered_at": "2026-09-15T12:11:07.483793+00:00",
       "status": "needs_verification"
     },
     {
@@ -405,7 +405,7 @@
         "course",
         "courses"
       ],
-      "discovered_at": "2026-09-15T12:09:20.516162+00:00",
+      "discovered_at": "2026-09-15T12:11:08.362379+00:00",
       "status": "needs_verification"
     },
     {
@@ -420,7 +420,7 @@
         "scholarship",
         "students"
       ],
-      "discovered_at": "2026-09-15T12:09:19.082844+00:00",
+      "discovered_at": "2026-09-15T12:11:07.014294+00:00",
       "status": "needs_verification"
     },
     {
@@ -435,7 +435,7 @@
         "students",
         "international students"
       ],
-      "discovered_at": "2026-09-15T12:09:19.082079+00:00",
+      "discovered_at": "2026-09-15T12:11:07.013928+00:00",
       "status": "needs_verification"
     },
     {
@@ -449,7 +449,7 @@
       "matched_keywords": [
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T12:09:19.556773+00:00",
+      "discovered_at": "2026-09-15T12:11:07.484262+00:00",
       "status": "needs_verification"
     },
     {
@@ -465,7 +465,7 @@
         "scholarships",
         "students"
       ],
-      "discovered_at": "2026-09-15T12:09:19.082753+00:00",
+      "discovered_at": "2026-09-15T12:11:07.014254+00:00",
       "status": "needs_verification"
     },
     {
@@ -481,7 +481,7 @@
         "jobs",
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T12:09:19.556432+00:00",
+      "discovered_at": "2026-09-15T12:11:07.483895+00:00",
       "status": "needs_verification"
     },
     {
@@ -495,7 +495,7 @@
       "matched_keywords": [
         "fully funded"
       ],
-      "discovered_at": "2026-09-15T12:09:19.083852+00:00",
+      "discovered_at": "2026-09-15T12:11:07.014753+00:00",
       "status": "needs_verification"
     },
     {
@@ -510,7 +510,7 @@
         "scholarship",
         "africa"
       ],
-      "discovered_at": "2026-09-15T12:09:19.083302+00:00",
+      "discovered_at": "2026-09-15T12:11:07.014497+00:00",
       "status": "needs_verification"
     },
     {
@@ -525,7 +525,7 @@
         "course",
         "courses"
       ],
-      "discovered_at": "2026-09-15T12:09:20.516216+00:00",
+      "discovered_at": "2026-09-15T12:11:08.362413+00:00",
       "status": "needs_verification"
     },
     {
@@ -541,7 +541,7 @@
         "jobs",
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T12:09:19.555988+00:00",
+      "discovered_at": "2026-09-15T12:11:07.483477+00:00",
       "status": "needs_verification"
     },
     {
@@ -556,7 +556,7 @@
         "scholarship",
         "scholarships"
       ],
-      "discovered_at": "2026-09-15T12:09:19.083104+00:00",
+      "discovered_at": "2026-09-15T12:11:07.014416+00:00",
       "status": "needs_verification"
     },
     {
@@ -573,7 +573,7 @@
         "students",
         "international students"
       ],
-      "discovered_at": "2026-09-15T12:09:20.106707+00:00",
+      "discovered_at": "2026-09-15T12:11:07.954655+00:00",
       "status": "needs_verification"
     },
     {
@@ -589,7 +589,7 @@
         "internships",
         "students"
       ],
-      "discovered_at": "2026-09-15T12:09:20.106598+00:00",
+      "discovered_at": "2026-09-15T12:11:07.954548+00:00",
       "status": "needs_verification"
     },
     {
@@ -605,7 +605,7 @@
         "internships",
         "students"
       ],
-      "discovered_at": "2026-09-15T12:09:20.106635+00:00",
+      "discovered_at": "2026-09-15T12:11:07.954584+00:00",
       "status": "needs_verification"
     },
     {
@@ -620,7 +620,7 @@
         "course",
         "courses"
       ],
-      "discovered_at": "2026-09-15T12:09:20.517438+00:00",
+      "discovered_at": "2026-09-15T12:11:08.363621+00:00",
       "status": "needs_verification"
     },
     {
@@ -634,7 +634,7 @@
       "matched_keywords": [
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T12:09:19.556807+00:00",
+      "discovered_at": "2026-09-15T12:11:07.484327+00:00",
       "status": "needs_verification"
     },
     {
@@ -649,7 +649,7 @@
         "students",
         "africa"
       ],
-      "discovered_at": "2026-09-15T12:09:19.086216+00:00",
+      "discovered_at": "2026-09-15T12:11:07.015896+00:00",
       "status": "needs_verification"
     },
     {
@@ -664,7 +664,7 @@
         "internship",
         "students"
       ],
-      "discovered_at": "2026-09-15T12:09:20.106860+00:00",
+      "discovered_at": "2026-09-15T12:11:07.954806+00:00",
       "status": "needs_verification"
     },
     {
@@ -681,7 +681,7 @@
         "students",
         "africa"
       ],
-      "discovered_at": "2026-09-15T12:09:19.082256+00:00",
+      "discovered_at": "2026-09-15T12:11:07.014001+00:00",
       "status": "needs_verification"
     },
     {
@@ -697,7 +697,7 @@
         "scholarships",
         "africa"
       ],
-      "discovered_at": "2026-09-15T12:09:19.085557+00:00",
+      "discovered_at": "2026-09-15T12:11:07.015588+00:00",
       "status": "needs_verification"
     },
     {
@@ -711,7 +711,7 @@
       "matched_keywords": [
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T12:09:19.557103+00:00",
+      "discovered_at": "2026-09-15T12:11:07.484629+00:00",
       "status": "needs_verification"
     },
     {
@@ -727,7 +727,7 @@
         "jobs",
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T12:09:19.556698+00:00",
+      "discovered_at": "2026-09-15T12:11:07.484165+00:00",
       "status": "needs_verification"
     },
     {
@@ -741,7 +741,7 @@
       "matched_keywords": [
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T12:09:19.557454+00:00",
+      "discovered_at": "2026-09-15T12:11:07.484969+00:00",
       "status": "needs_verification"
     },
     {
@@ -756,7 +756,7 @@
         "job",
         "jobs"
       ],
-      "discovered_at": "2026-09-15T12:09:19.557510+00:00",
+      "discovered_at": "2026-09-15T12:11:07.485026+00:00",
       "status": "needs_verification"
     },
     {
@@ -773,7 +773,7 @@
         "students",
         "international students"
       ],
-      "discovered_at": "2026-09-15T12:09:19.082935+00:00",
+      "discovered_at": "2026-09-15T12:11:07.014336+00:00",
       "status": "needs_verification"
     },
     {
@@ -790,7 +790,7 @@
         "students",
         "africa"
       ],
-      "discovered_at": "2026-09-15T12:09:19.085787+00:00",
+      "discovered_at": "2026-09-15T12:11:07.015697+00:00",
       "status": "needs_verification"
     },
     {
@@ -807,7 +807,7 @@
         "students",
         "africa"
       ],
-      "discovered_at": "2026-09-15T12:09:19.085950+00:00",
+      "discovered_at": "2026-09-15T12:11:07.015781+00:00",
       "status": "needs_verification"
     },
     {
@@ -824,7 +824,7 @@
         "job",
         "students"
       ],
-      "discovered_at": "2026-09-15T12:09:20.106947+00:00",
+      "discovered_at": "2026-09-15T12:11:07.954890+00:00",
       "status": "needs_verification"
     },
     {
@@ -841,7 +841,7 @@
         "students",
         "africa"
       ],
-      "discovered_at": "2026-09-15T12:09:19.083213+00:00",
+      "discovered_at": "2026-09-15T12:11:07.014456+00:00",
       "status": "needs_verification"
     },
     {
@@ -858,7 +858,7 @@
         "fully funded",
         "africa"
       ],
-      "discovered_at": "2026-09-15T12:09:19.083392+00:00",
+      "discovered_at": "2026-09-15T12:11:07.014539+00:00",
       "status": "needs_verification"
     },
     {
@@ -875,7 +875,7 @@
         "fully funded",
         "africa"
       ],
-      "discovered_at": "2026-09-15T12:09:19.083956+00:00",
+      "discovered_at": "2026-09-15T12:11:07.014811+00:00",
       "status": "needs_verification"
     },
     {
@@ -891,7 +891,7 @@
         "scholarships",
         "students"
       ],
-      "discovered_at": "2026-09-15T12:09:19.090113+00:00",
+      "discovered_at": "2026-09-15T12:11:07.017720+00:00",
       "status": "needs_verification"
     },
     {
@@ -905,7 +905,7 @@
       "matched_keywords": [
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T12:09:19.557625+00:00",
+      "discovered_at": "2026-09-15T12:11:07.485143+00:00",
       "status": "needs_verification"
     },
     {
@@ -922,7 +922,7 @@
         "africa",
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T12:09:19.555859+00:00",
+      "discovered_at": "2026-09-15T12:11:07.483333+00:00",
       "status": "needs_verification"
     },
     {
@@ -938,7 +938,7 @@
         "jobs",
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T12:09:19.555951+00:00",
+      "discovered_at": "2026-09-15T12:11:07.483436+00:00",
       "status": "needs_verification"
     },
     {
@@ -955,7 +955,7 @@
         "africa",
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T12:09:19.556027+00:00",
+      "discovered_at": "2026-09-15T12:11:07.483520+00:00",
       "status": "needs_verification"
     },
     {
@@ -971,7 +971,7 @@
         "jobs",
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T12:09:19.556467+00:00",
+      "discovered_at": "2026-09-15T12:11:07.483930+00:00",
       "status": "needs_verification"
     },
     {
@@ -987,7 +987,7 @@
         "course",
         "courses"
       ],
-      "discovered_at": "2026-09-15T12:09:20.515558+00:00",
+      "discovered_at": "2026-09-15T12:11:08.361711+00:00",
       "status": "needs_verification"
     },
     {
@@ -1002,7 +1002,7 @@
         "job",
         "jobs"
       ],
-      "discovered_at": "2026-09-15T12:09:19.559000+00:00",
+      "discovered_at": "2026-09-15T12:11:07.486577+00:00",
       "status": "needs_verification"
     },
     {
@@ -1018,7 +1018,7 @@
         "jobs",
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T12:09:19.556906+00:00",
+      "discovered_at": "2026-09-15T12:11:07.484430+00:00",
       "status": "needs_verification"
     },
     {
@@ -1035,7 +1035,7 @@
         "students",
         "africa"
       ],
-      "discovered_at": "2026-09-15T12:09:19.086376+00:00",
+      "discovered_at": "2026-09-15T12:11:07.015975+00:00",
       "status": "needs_verification"
     },
     {
@@ -1051,7 +1051,7 @@
         "jobs",
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T12:09:19.556734+00:00",
+      "discovered_at": "2026-09-15T12:11:07.484217+00:00",
       "status": "needs_verification"
     },
     {
@@ -1066,7 +1066,7 @@
         "job",
         "jobs"
       ],
-      "discovered_at": "2026-09-15T12:09:19.557899+00:00",
+      "discovered_at": "2026-09-15T12:11:07.485446+00:00",
       "status": "needs_verification"
     },
     {
@@ -1081,7 +1081,7 @@
         "scholarship",
         "scholarships"
       ],
-      "discovered_at": "2026-09-15T12:09:19.088149+00:00",
+      "discovered_at": "2026-09-15T12:11:07.016809+00:00",
       "status": "needs_verification"
     },
     {
@@ -1095,7 +1095,7 @@
       "matched_keywords": [
         "course"
       ],
-      "discovered_at": "2026-09-15T12:09:20.517270+00:00",
+      "discovered_at": "2026-09-15T12:11:08.363453+00:00",
       "status": "needs_verification"
     },
     {
@@ -1110,7 +1110,7 @@
         "job",
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T12:09:19.558278+00:00",
+      "discovered_at": "2026-09-15T12:11:07.485811+00:00",
       "status": "needs_verification"
     },
     {
@@ -1124,7 +1124,7 @@
       "matched_keywords": [
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T12:09:19.559102+00:00",
+      "discovered_at": "2026-09-15T12:11:07.486679+00:00",
       "status": "needs_verification"
     },
     {
@@ -1140,7 +1140,7 @@
         "jobs",
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T12:09:19.557773+00:00",
+      "discovered_at": "2026-09-15T12:11:07.485319+00:00",
       "status": "needs_verification"
     },
     {
@@ -1156,7 +1156,7 @@
         "jobs",
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T12:09:19.557806+00:00",
+      "discovered_at": "2026-09-15T12:11:07.485352+00:00",
       "status": "needs_verification"
     },
     {
@@ -1174,7 +1174,7 @@
         "students",
         "africa"
       ],
-      "discovered_at": "2026-09-15T12:09:19.086115+00:00",
+      "discovered_at": "2026-09-15T12:11:07.015860+00:00",
       "status": "needs_verification"
     },
     {
@@ -1188,7 +1188,7 @@
       "matched_keywords": [
         "students"
       ],
-      "discovered_at": "2026-09-15T12:09:20.106805+00:00",
+      "discovered_at": "2026-09-15T12:11:07.954752+00:00",
       "status": "needs_verification"
     },
     {
@@ -1204,7 +1204,7 @@
         "jobs",
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T12:09:19.559291+00:00",
+      "discovered_at": "2026-09-15T12:11:07.486809+00:00",
       "status": "needs_verification"
     },
     {
@@ -1220,7 +1220,7 @@
         "scholarships",
         "students"
       ],
-      "discovered_at": "2026-09-15T12:09:19.089803+00:00",
+      "discovered_at": "2026-09-15T12:11:07.017577+00:00",
       "status": "needs_verification"
     },
     {
@@ -1237,7 +1237,7 @@
         "fully funded",
         "students"
       ],
-      "discovered_at": "2026-09-15T12:09:19.088077+00:00",
+      "discovered_at": "2026-09-15T12:11:07.016776+00:00",
       "status": "needs_verification"
     },
     {
@@ -1254,7 +1254,7 @@
         "students",
         "africa"
       ],
-      "discovered_at": "2026-09-15T12:09:19.088533+00:00",
+      "discovered_at": "2026-09-15T12:11:07.016969+00:00",
       "status": "needs_verification"
     },
     {
@@ -1270,7 +1270,7 @@
         "students",
         "international students"
       ],
-      "discovered_at": "2026-09-15T12:09:19.084910+00:00",
+      "discovered_at": "2026-09-15T12:11:07.015292+00:00",
       "status": "needs_verification"
     },
     {
@@ -1287,7 +1287,7 @@
         "students",
         "africa"
       ],
-      "discovered_at": "2026-09-15T12:09:19.088858+00:00",
+      "discovered_at": "2026-09-15T12:11:07.017119+00:00",
       "status": "needs_verification"
     },
     {
@@ -1303,7 +1303,7 @@
         "scholarships",
         "africa"
       ],
-      "discovered_at": "2026-09-15T12:09:19.088984+00:00",
+      "discovered_at": "2026-09-15T12:11:07.017187+00:00",
       "status": "needs_verification"
     },
     {
@@ -1318,7 +1318,7 @@
         "course",
         "courses"
       ],
-      "discovered_at": "2026-09-15T12:09:20.516392+00:00",
+      "discovered_at": "2026-09-15T12:11:08.362591+00:00",
       "status": "needs_verification"
     },
     {
@@ -1334,7 +1334,7 @@
         "scholarships",
         "students"
       ],
-      "discovered_at": "2026-09-15T12:09:19.084057+00:00",
+      "discovered_at": "2026-09-15T12:11:07.014860+00:00",
       "status": "needs_verification"
     },
     {
@@ -1351,7 +1351,7 @@
         "students",
         "international students"
       ],
-      "discovered_at": "2026-09-15T12:09:19.087509+00:00",
+      "discovered_at": "2026-09-15T12:11:07.016507+00:00",
       "status": "needs_verification"
     },
     {
@@ -1365,7 +1365,7 @@
       "matched_keywords": [
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T12:09:19.557420+00:00",
+      "discovered_at": "2026-09-15T12:11:07.484934+00:00",
       "status": "needs_verification"
     },
     {
@@ -1379,7 +1379,7 @@
       "matched_keywords": [
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T12:09:19.558034+00:00",
+      "discovered_at": "2026-09-15T12:11:07.485583+00:00",
       "status": "needs_verification"
     },
     {
@@ -1395,7 +1395,7 @@
         "jobs",
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T12:09:19.558210+00:00",
+      "discovered_at": "2026-09-15T12:11:07.485744+00:00",
       "status": "needs_verification"
     },
     {
@@ -1413,7 +1413,7 @@
         "students",
         "africa"
       ],
-      "discovered_at": "2026-09-15T12:09:19.087418+00:00",
+      "discovered_at": "2026-09-15T12:11:07.016464+00:00",
       "status": "needs_verification"
     },
     {
@@ -1429,7 +1429,7 @@
         "scholarships",
         "africa"
       ],
-      "discovered_at": "2026-09-15T12:09:19.086625+00:00",
+      "discovered_at": "2026-09-15T12:11:07.016083+00:00",
       "status": "needs_verification"
     },
     {
@@ -1443,7 +1443,7 @@
       "matched_keywords": [
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T12:09:19.556971+00:00",
+      "discovered_at": "2026-09-15T12:11:07.484497+00:00",
       "status": "needs_verification"
     },
     {
@@ -1457,7 +1457,7 @@
       "matched_keywords": [
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T12:09:19.557869+00:00",
+      "discovered_at": "2026-09-15T12:11:07.485415+00:00",
       "status": "needs_verification"
     },
     {
@@ -1474,7 +1474,7 @@
         "students",
         "africa"
       ],
-      "discovered_at": "2026-09-15T12:09:19.084593+00:00",
+      "discovered_at": "2026-09-15T12:11:07.015108+00:00",
       "status": "needs_verification"
     },
     {
@@ -1489,7 +1489,7 @@
         "course",
         "courses"
       ],
-      "discovered_at": "2026-09-15T12:09:20.516470+00:00",
+      "discovered_at": "2026-09-15T12:11:08.362672+00:00",
       "status": "needs_verification"
     },
     {
@@ -1506,7 +1506,7 @@
         "fully funded",
         "africa"
       ],
-      "discovered_at": "2026-09-15T12:09:19.087254+00:00",
+      "discovered_at": "2026-09-15T12:11:07.016381+00:00",
       "status": "needs_verification"
     },
     {
@@ -1521,7 +1521,7 @@
         "internship",
         "students"
       ],
-      "discovered_at": "2026-09-15T12:09:20.108004+00:00",
+      "discovered_at": "2026-09-15T12:11:07.955966+00:00",
       "status": "needs_verification"
     },
     {
@@ -1536,7 +1536,7 @@
         "scholarship",
         "scholarships"
       ],
-      "discovered_at": "2026-09-15T12:09:19.087823+00:00",
+      "discovered_at": "2026-09-15T12:11:07.016659+00:00",
       "status": "needs_verification"
     },
     {
@@ -1552,7 +1552,7 @@
         "scholarships",
         "africa"
       ],
-      "discovered_at": "2026-09-15T12:09:19.085329+00:00",
+      "discovered_at": "2026-09-15T12:11:07.015473+00:00",
       "status": "needs_verification"
     },
     {
@@ -1567,7 +1567,7 @@
         "africa",
         "tanzania"
       ],
-      "discovered_at": "2026-09-15T12:09:19.556257+00:00",
+      "discovered_at": "2026-09-15T12:11:07.483720+00:00",
       "status": "needs_verification"
     }
   ]
