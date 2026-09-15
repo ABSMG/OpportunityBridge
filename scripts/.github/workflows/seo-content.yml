@@ -1,6 +1,6 @@
 name: SEO Content System
 
-on:
+"on":
   workflow_dispatch:
 
 permissions:
