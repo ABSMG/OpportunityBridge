@@ -1,0 +1,48 @@
+name: SEO Pipeline
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  seo-pipeline:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Update internal links
+        run: |
+          python scripts/auto_internal_links.py
+
+      - name: Generate sitemap
+        run: |
+          python scripts/generate_sitemap.py
+
+      - name: Run SEO checker
+        run: |
+          python scripts/seo_checker.py
+
+      - name: Commit SEO updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add "*.html" sitemap.xml
+
+          if git diff --cached --quiet; then
+            echo "No SEO updates required."
+          else
+            git commit -m "chore: update SEO files"
+            git push
+          fi
