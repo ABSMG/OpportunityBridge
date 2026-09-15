@@ -4,9 +4,7 @@ import json
 import re
 import html
 
-
 ROOT = Path(__file__).resolve().parents[1]
-
 INPUT = ROOT / "data" / "approved_opportunities.json"
 OUTPUT_DIR = ROOT
 
@@ -28,24 +26,31 @@ def escape(value):
 
 def article_exists(slug):
     return (
-        OUTPUT_DIR / f"{slug}.html"
+        OUTPUT_DIR /
+        f"{slug}.html"
     ).exists()
 
 
 def create_article(item):
+
     title = item.get(
         "title",
         "New Opportunity"
     ).strip()
 
-    source_url = item.get(
-        "source_url",
+    publisher_name = item.get(
+        "publisher_name",
         ""
     ).strip()
 
-    source_name = item.get(
-        "source",
-        "Official source"
+    publisher_url = item.get(
+        "publisher_url",
+        ""
+    ).strip()
+
+    source_url = item.get(
+        "source_url",
+        ""
     ).strip()
 
     keywords = item.get(
@@ -62,13 +67,19 @@ def create_article(item):
         return None
 
     keyword_text = ", ".join(
-        keywords[:6]
+        keywords[:8]
     )
 
     safe_title = escape(title)
-    safe_source = escape(source_name)
-    safe_url = escape(source_url)
-    safe_keywords = escape(keyword_text)
+    safe_publisher = escape(
+        publisher_name or "Verified source"
+    )
+    safe_url = escape(
+        publisher_url or source_url
+    )
+    safe_keywords = escape(
+        keyword_text
+    )
 
     today = datetime.now(
         timezone.utc
@@ -79,99 +90,239 @@ def create_article(item):
     content = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
+
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
 
   <title>{safe_title} | OpportunityBridge</title>
 
-  <meta
-    name="description"
-    content="Learn about {safe_title}, including the available opportunity information and official source."
-  >
+  <meta name="description"
+        content="Learn about {safe_title}, eligibility information, opportunity details and the verified source.">
 
-  <meta
-    name="keywords"
-    content="{safe_keywords}, Tanzania, Africa, OpportunityBridge"
-  >
+  <meta name="keywords"
+        content="{safe_keywords}, Tanzania, Africa, scholarships, jobs, internships, courses">
 
-  <link
-    rel="canonical"
-    href="https://absmg.github.io/{filename}"
-  >
+  <meta name="robots"
+        content="index, follow">
+
+  <link rel="canonical"
+        href="https://absmg.github.io/{filename}">
+
+  <meta property="og:title"
+        content="{safe_title} | OpportunityBridge">
+
+  <meta property="og:description"
+        content="Explore this opportunity and verify the latest information from the listed source.">
+
+  <meta property="og:type"
+        content="article">
+
+  <meta property="og:url"
+        content="https://absmg.github.io/{filename}">
+
 </head>
 
 <body>
 
 <header>
+
+  <nav aria-label="Main navigation">
+
+    <a href="index.html">
+      OpportunityBridge
+    </a>
+
+    |
+    <a href="scholarships.html">
+      Scholarships
+    </a>
+
+    |
+    <a href="jobs.html">
+      Jobs
+    </a>
+
+    |
+    <a href="internships.html">
+      Internships
+    </a>
+
+    |
+    <a href="courses.html">
+      Courses
+    </a>
+
+    |
+    <a href="opportunities.html">
+      Opportunities
+    </a>
+
+  </nav>
+
   <h1>{safe_title}</h1>
+
 </header>
+
 
 <main>
 
-  <p>
-    <strong>OpportunityBridge</strong> has identified this
-    opportunity as a potential scholarship, job, internship,
-    course, training, fellowship or related opportunity.
-  </p>
+  <article>
 
-  <h2>Opportunity Overview</h2>
+    <p>
+      <strong>OpportunityBridge</strong>
+      discovered this opportunity through its
+      automated opportunity discovery system.
+    </p>
 
-  <p>
-    This page provides the available information discovered
-    from the listed source. Applicants should always confirm
-    the latest requirements, eligibility conditions and
-    deadlines directly with the official source before applying.
-  </p>
 
-  <h2>Opportunity Type</h2>
+    <h2>Opportunity Overview</h2>
 
-  <p>
-    {safe_keywords}
-  </p>
+    <p>
+      This page summarizes the opportunity information
+      identified by OpportunityBridge. Requirements,
+      eligibility, application dates and availability
+      may change, so applicants should verify all details
+      directly with the source before applying.
+    </p>
 
-  <h2>Source</h2>
 
-  <p>
-    Source identified as:
-    <strong>{safe_source}</strong>
-  </p>
+    <h2>Opportunity Type</h2>
 
-  <p>
-    <a
-      href="{safe_url}"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Visit the source and verify the opportunity
-    </a>
-  </p>
+    <p>
+      {safe_keywords}
+    </p>
 
-  <h2>Important Notice</h2>
 
-  <p>
-    OpportunityBridge does not guarantee admission,
-    employment, funding or selection. Information may change
-    after publication. Always verify the opportunity directly
-    with the official source before submitting an application
-    or personal information.
-  </p>
+    <h2>Source</h2>
 
-  <p>
-    <strong>Last checked:</strong> {today}
-  </p>
+    <p>
+      Publisher:
+      <strong>{safe_publisher}</strong>
+    </p>
+
+    <p>
+      <a
+        href="{safe_url}"
+        target="_blank"
+        rel="noopener noreferrer nofollow">
+        Visit the source and verify this opportunity
+      </a>
+    </p>
+
+
+    <h2>Before You Apply</h2>
+
+    <ul>
+
+      <li>
+        Confirm the application deadline.
+      </li>
+
+      <li>
+        Check the eligibility requirements.
+      </li>
+
+      <li>
+        Confirm whether the opportunity is open
+        to Tanzanian or international applicants.
+      </li>
+
+      <li>
+        Use the publisher's official information
+        before submitting personal documents.
+      </li>
+
+    </ul>
+
+
+    <h2>Important Notice</h2>
+
+    <p>
+      OpportunityBridge does not guarantee admission,
+      employment, funding or selection.
+      Information may change after publication.
+      Always verify the opportunity directly with
+      the publisher before applying.
+    </p>
+
+
+    <p>
+      <strong>Last checked:</strong>
+      {today}
+    </p>
+
+  </article>
+
 
   <hr>
 
-  <p>
-    <a href="index.html">Home</a> |
-    <a href="scholarships.html">Scholarships</a> |
-    <a href="jobs.html">Jobs</a> |
-    <a href="internships.html">Internships</a> |
-    <a href="courses.html">Courses</a> |
-    <a href="opportunities.html">Opportunities</a>
-  </p>
+
+  <section
+    aria-label="Explore more opportunities">
+
+    <h2>Explore More Opportunities</h2>
+
+    <p>
+
+      <a href="scholarships.html">
+        Scholarships
+      </a>
+      |
+
+      <a href="jobs.html">
+        Jobs
+      </a>
+      |
+
+      <a href="internships.html">
+        Internships
+      </a>
+      |
+
+      <a href="courses.html">
+        Courses
+      </a>
+      |
+
+      <a href="opportunities.html">
+        All Opportunities
+      </a>
+
+    </p>
+
+  </section>
+
 
 </main>
+
+
+<footer>
+
+  <p>
+    <a href="about.html">
+      About OpportunityBridge
+    </a>
+    |
+    <a href="contact.html">
+      Contact
+    </a>
+    |
+    <a href="privacy.html">
+      Privacy
+    </a>
+    |
+    <a href="disclaimer.html">
+      Disclaimer
+    </a>
+  </p>
+
+  <p>
+    © OpportunityBridge
+  </p>
+
+</footer>
 
 </body>
 </html>
@@ -188,13 +339,17 @@ def create_article(item):
 
 
 def main():
+
     print("=" * 60)
-    print("OPPORTUNITYBRIDGE ARTICLE GENERATOR")
+    print(
+        "OPPORTUNITYBRIDGE ARTICLE GENERATOR"
+    )
     print("=" * 60)
 
     if not INPUT.exists():
+
         raise SystemExit(
-            "ERROR: approved_opportunities.json was not found."
+            "ERROR: approved_opportunities.json not found."
         )
 
     data = json.loads(
@@ -203,27 +358,48 @@ def main():
         )
     )
 
-    approved = data.get(
+    items = data.get(
         "approved_items",
         []
     )
 
-    created = []
+    generated = []
 
-    for item in approved:
-        filename = create_article(item)
+    for item in items:
+
+        filename = create_article(
+            item
+        )
 
         if filename:
-            created.append(filename)
 
-    print(f"Approved opportunities: {len(approved)}")
-    print(f"New articles created: {len(created)}")
+            generated.append(
+                filename
+            )
 
-    if created:
-        print("\nCreated articles:")
+    print(
+        f"Approved opportunities: {len(items)}"
+    )
 
-        for filename in created:
-            print(f"- {filename}")
+    print(
+        f"New articles generated: {len(generated)}"
+    )
+
+    if generated:
+
+        print("\nGenerated articles:")
+
+        for filename in generated:
+
+            print(
+                f"- {filename}"
+            )
+
+    else:
+
+        print(
+            "No new articles required."
+        )
 
     print("=" * 60)
 
