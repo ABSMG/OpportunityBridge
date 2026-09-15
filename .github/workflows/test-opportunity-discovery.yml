@@ -41,9 +41,23 @@ jobs:
       - name: Show approved opportunities
         run: |
           cat data/approved_opportunities.json
+
       - name: Generate opportunity articles
         run: |
           python scripts/opportunity_article_generator.py
+
+      - name: Update internal links
+        run: |
+          python scripts/auto_internal_links.py
+
+      - name: Generate sitemap
+        run: |
+          python scripts/generate_sitemap.py
+
+      - name: Run SEO checker
+        run: |
+          python scripts/seo_checker.py
+
       - name: Show discoveries
         run: |
           cat data/discovered_opportunities.json
@@ -53,7 +67,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add "*.html" data/discovered_opportunities.json data/verified_opportunities.json data/approved_opportunities.json
+          git add "*.html" sitemap.xml data/discovered_opportunities.json data/verified_opportunities.json data/approved_opportunities.json
 
           if git diff --cached --quiet; then
             echo "No new opportunity data."
