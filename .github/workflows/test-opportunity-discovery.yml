@@ -26,7 +26,13 @@ jobs:
       - name: Run opportunity discovery
         run: |
           python scripts/opportunity_discovery.py
+- name: Verify opportunities
+  run: |
+    python scripts/opportunity_verifier.py
 
+- name: Show verified opportunities
+  run: |
+    cat data/verified_opportunities.json
       - name: Show discoveries
         run: |
           cat data/discovered_opportunities.json
